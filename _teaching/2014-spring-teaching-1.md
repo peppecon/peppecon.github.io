@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+layout: single
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching Assistant  
+Undergraduate course, Bocconi University, 2022
 
-Heading 1
-======
+**Teaching Assistant  ·  Fall 2022 – Present**  
+*Bocconi University, Milan (Italy)*
 
-Heading 2
-======
+**Courses supported**
 
-Heading 3
-======
+- Financial Macroeconomics (Bachelor)
+- Econometrics (Bachelor)
+- Macroeconomics (Bachelor)
+- Monetary Theory and Policy (Bachelor)
+
