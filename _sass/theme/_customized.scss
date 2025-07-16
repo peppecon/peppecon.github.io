@@ -1,0 +1,140 @@
+/* ==========================================================================
+   CUSTOM DARK THEME  – Generated 2025‑07‑16
+   Uses preferred palette: #1A2B49 (dark‑blue), #C0392B (crimson),
+   #2980B9 (azure), #2E2E2E (dark‑gray)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Primary palette
+   -------------------------------------------------------------------------- */
+$dark-blue       : #1A2B49;  // Titles & key highlights
+$crimson         : #C0392B;  // Accent, buttons, error states
+$azure           : #2980B9;  // Links, bullets, interactive accents
+$dark-gray       : #2E2E2E;  // Utility dark gray (e.g. borders)
+$mid-gray        : #7A8288;  // Neutral gray tone
+$black           : #000000;
+$white           : #ffffff;
+
+/* --------------------------------------------------------------------------
+   Derived shades
+   -------------------------------------------------------------------------- */
+$background            : mix($black, $dark-blue, 85%);   // Very dark navy base (#0D111C)
+$background-light      : mix($white, $background, 12%);  // Slightly lighter for borders
+$background-lighter    : mix($white, $background, 25%);  // Table headers, subtle highlights
+$text                  : #E6E8EE;                        // Near‑white for readability
+$link                  : $azure;
+$link-dark             : mix($black, $link, 20%);
+$link-light            : mix($white, $link, 25%);
+
+/* --------------------------------------------------------------------------
+   Semantic colours
+   -------------------------------------------------------------------------- */
+$danger-color  : $crimson;
+$info-color    : mix($azure, $white, 15%);
+$notice-color  : $mid-gray;
+$success-color : #27AE60;     // Emerald
+$warning-color : #F39C12;     // Amber
+
+/* --------------------------------------------------------------------------
+   Globals & helpers (copied from Minimal Mistakes structure)
+   -------------------------------------------------------------------------- */
+$border-radius         : 4px;
+$box-shadow            : 0 1px 1px rgba(0, 0, 0, 0.25);
+$global-transition     : all 0.2s ease-in-out;
+$masthead-height       : 70px;
+$navicon-width         : 28px;
+$navicon-height        : 4px;
+$sidebar-link-max-width: 250px;
+$sidebar-screen-min-width: 1024px;
+
+/* --------------------------------------------------------------------------
+   CSS custom properties – automatically injected via the theme switcher
+   -------------------------------------------------------------------------- */
+html[data-theme="dark"] {
+  /* Core surfaces */
+  --global-base-color                : #{$background};
+  --global-bg-color                  : #{$background};
+  --global-footer-bg-color           : #{$background};
+
+  /* Borders & separators */
+  --global-border-color              : #{$mid-gray};
+  --global-dark-border-color         : #{$background-light};
+
+  /* Code blocks */
+  --global-code-background-color     : #10141F;
+  --global-code-text-color           : #C8C8C8;
+
+  /* Figure captions, subtle text */
+  --global-fig-caption-color         : #{$mid-gray};
+
+  /* Links */
+  --global-link-color                : #{$link};
+  --global-link-color-hover          : #{$link-light};
+  --global-link-color-visited        : #{$link-dark};
+
+  /* Masthead/navigation */
+  --global-masthead-link-color       : #{$white};
+  --global-masthead-link-color-hover : #{$background-light};
+
+  /* Text */
+  --global-text-color                : #{$text};
+  --global-text-color-light          : #{$mid-gray};
+
+  /* Table headers */
+  --global-thead-color               : #{$background-lighter};
+
+  /* Custom hooks for this theme */
+  --title-color                      : #{$dark-blue};
+  --accent-color                     : #{$crimson};
+  --bullet-color                     : #{$azure};
+}
+
+/* --------------------------------------------------------------------------
+   Element‑level styles (example usage; extend as needed)
+   -------------------------------------------------------------------------- */
+
+/* Headings inherit the title colour */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--title-color);
+}
+
+/* Bullet colours for lists */
+ul li::marker {
+  color: var(--bullet-color);
+}
+
+/* Standard link behaviour */
+a {
+  color: var(--global-link-color);
+  text-decoration: none;
+  transition: $global-transition;
+
+  &:hover,
+  &:focus {
+    color: var(--global-link-color-hover);
+  }
+}
+
+/* Code blocks */
+pre, code {
+  background: var(--global-code-background-color);
+  color: var(--global-code-text-color);
+  border-radius: $border-radius;
+}
+
+/* Example button styling */
+.button,
+.btn {
+  background: var(--accent-color);
+  color: var(--global-text-color);
+  border: none;
+  border-radius: $border-radius;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: $global-transition;
+
+  &:hover {
+    background: mix($white, $crimson, 10%);
+  }
+}
+
