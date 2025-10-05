@@ -47,7 +47,7 @@ $caption-font-family        : $serif;
    Breakpoints
    ========================================================================== */
 
-@include breakpoint-set("to ems", true);
+// @include breakpoint-set("to ems", true);
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
