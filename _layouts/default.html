@@ -1,0 +1,60 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js modern-layout"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/modern-layout.css' | prepend: base_path }}">
+  </head>
+
+  <body class="modern-body">
+    {% include browser-upgrade.html %}
+    
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+      <div class="nav-container">
+        <div class="nav-menu">
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <a href="{{ domain }}{{ link.url }}" class="nav-link">{{ link.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="modern-main">
+      <!-- Left Profile Section -->
+      <aside class="profile-section">
+        <div class="profile-card">
+          {% include author-profile.html %}
+        </div>
+      </aside>
+
+      <!-- Center Content Area -->
+      <section class="content-section">
+        <div class="content-wrapper">
+          {{ content }}
+        </div>
+      </section>
+    </main>
+
+    <!-- Background Elements -->
+    <div class="bg-elements">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

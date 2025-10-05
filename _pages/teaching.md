@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Teaching"
+permalink: /teaching/
+author_profile: false
+---
+
+## Teaching Assistant · Fall 2022 – Present
+
+*Bocconi University, Milan (Italy)*
+
+## Courses supported
+
+- Financial Macroeconomics (Bachelor)
+- Econometrics (Bachelor)
+- Macroeconomics (Bachelor)
+- Monetary Theory and Policy (Bachelor) 
