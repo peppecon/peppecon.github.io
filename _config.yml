@@ -34,7 +34,11 @@ author:
   avatar           : "profile_pic.png"
   name             : "Piero De Dominicis"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate at Bocconi University. \n Research interests: Macroeconomics, Labor Economics, Structural Econometrics."
+  bio              : "PhD Candidate at Bocconi University."
+  research_interests:
+    - Macroeconomics
+    - Labor Economics
+    - Structural Econometrics
   location         : "Milan, Italy"
   employer         : "Bocconi University"
   uri              : # URL

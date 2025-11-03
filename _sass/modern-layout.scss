@@ -294,6 +294,23 @@ html.modern-layout {
   margin: 15px 0;
 }
 
+.author__interests {
+  margin: 15px 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.author__interests-list {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  color: var(--text-secondary);
+}
+
+.author__interests-list li {
+  margin-bottom: 5px;
+}
+
 /* Background Elements - Removed floating shapes */
 
 /* Responsive Design */
