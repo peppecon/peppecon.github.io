@@ -46,6 +46,8 @@ author_profile: false
 .abstract-expanded .abstract-text {
   font-size: 0.85rem;
   line-height: 1.8;
+  text-align: justify;
+  hyphens: auto;
   color: var(--text-secondary);
 }
 .abstract-expanded .abstract-figure {
