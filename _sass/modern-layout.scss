@@ -255,7 +255,7 @@ html.modern-layout {
 }
 
 /* Profile Section */
-.profile-card .author__avatar img {
+.author__avatar img {
   width: 220px;
   height: 220px;
   border-radius: 15px;
@@ -265,17 +265,17 @@ html.modern-layout {
   transition: all 0.3s ease;
 }
 
-.profile-card .author__avatar img:hover {
+.author__avatar img:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 32px var(--shadow-medium);
   border-color: var(--accent-hover);
 }
 
-.profile-card .author__content {
+.author__content {
   margin-top: 25px;
 }
 
-.profile-card .author__name {
+.author__name {
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0 0 10px 0;
@@ -288,7 +288,7 @@ html.modern-layout {
   overflow-wrap: break-word;
 }
 
-.profile-card .author__bio {
+.author__bio {
   color: var(--text-secondary);
   line-height: 1.6;
   margin: 15px 0;
@@ -345,7 +345,7 @@ html.modern-layout {
     font-size: 1.2rem;
   }
   
-  .profile-card .author__avatar img {
+  .author__avatar img {
     width: 150px;
     height: 150px;
   }
