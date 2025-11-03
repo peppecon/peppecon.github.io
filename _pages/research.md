@@ -37,6 +37,30 @@ author_profile: false
   line-height: 1.8;
   color: var(--text-secondary);
 }
+.abstract-expanded {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.abstract-expanded .abstract-text {
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+.abstract-expanded .abstract-figure {
+  text-align: center;
+}
+.abstract-expanded .abstract-figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+  .abstract-expanded {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 ## Work in Progress
@@ -47,7 +71,14 @@ author_profile: false
     <span>"Multidimensional Skills, Learning and Occupational Sorting"</span>
   </div>
   <div class="abstract-content">
-    In this paper, I study occupational mobility and wage growth over the life cycle when workers have multidimensional, task-specific skills. Using Portuguese administrative data, I show that occupational mobility is informative of both workers sorting on comparative advantage and workers specializing in specific tasks, suggesting that workers can be mismatched along different dimensions. To understand the implications for wage growth and inequality, I develop a dynamic Roy model in which workers (i) have imperfect information about their multidimensional skills and (ii) accumulate task-specific human capital through work experience. Mismatch in the model arises endogenously as workers sort across occupations based on their beliefs. Estimating the model, I find that skills are positively but not perfectly correlated and that there are large differences in task productivity and returns to task experience across occupations. I show that skill mismatch generates substantial wage costs: workers lose 12% of their realized wage at labor market entry, which declines to 8% after 20 years. Low-skilled workers are disproportionately affected, facing costs twice as large as high-skilled workers throughout the life cycle.
+    <div class="abstract-expanded">
+      <div class="abstract-text">
+        In this paper, I study occupational mobility and wage growth over the life cycle when workers have multidimensional, task-specific skills. Using Portuguese administrative data, I show that occupational mobility is informative of both workers sorting on comparative advantage and workers specializing in specific tasks, suggesting that workers can be mismatched along different dimensions. To understand the implications for wage growth and inequality, I develop a dynamic Roy model in which workers (i) have imperfect information about their multidimensional skills and (ii) accumulate task-specific human capital through work experience. Mismatch in the model arises endogenously as workers sort across occupations based on their beliefs. Estimating the model, I find that skills are positively but not perfectly correlated and that there are large differences in task productivity and returns to task experience across occupations. I show that skill mismatch generates substantial wage costs: workers lose 12% of their realized wage at labor market entry, which declines to 8% after 20 years. Low-skilled workers are disproportionately affected, facing costs twice as large as high-skilled workers throughout the life cycle.
+      </div>
+      <div class="abstract-figure">
+        <img src="/images/relative_wage_gains_lifecycle.png" alt="Relative Wage Gains Lifecycle" />
+      </div>
+    </div>
   </div>
 </div>
 
