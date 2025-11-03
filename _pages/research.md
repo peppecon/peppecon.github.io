@@ -44,7 +44,7 @@ author_profile: false
   align-items: start;
 }
 .abstract-expanded .abstract-text {
-  font-size: 0.65rem;
+  font-size: 0.70rem;
   line-height: 1.8;
   text-align: justify;
   hyphens: auto;
