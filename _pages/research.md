@@ -44,6 +44,7 @@ author_profile: false
   align-items: start;
 }
 .abstract-expanded .abstract-text {
+  font-size: 0.85rem;
   line-height: 1.8;
   color: var(--text-secondary);
 }
