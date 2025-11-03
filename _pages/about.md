@@ -54,7 +54,7 @@ My research explores **Macroeconomics**, **Labor Economics**, and **Structural E
   align-items: start;
 }
 .abstract-expanded .abstract-text {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   line-height: 1.8;
   text-align: justify;
   hyphens: auto;
