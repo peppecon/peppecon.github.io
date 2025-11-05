@@ -64,6 +64,23 @@ author_profile: false
     grid-template-columns: 1fr;
   }
 }
+.draft-button {
+  margin-top: 20px;
+  text-align: center;
+}
+.draft-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent-color, #ff6b35);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.draft-button a:hover {
+  background-color: var(--accent-color-hover, #e55a2b);
+}
 </style>
 
 ## Work in Progress
@@ -81,6 +98,9 @@ author_profile: false
       <div class="abstract-figure">
         <img src="/images/relative_wage_gains_lifecycle.png" alt="Relative Wage Gains Lifecycle" />
       </div>
+    </div>
+    <div class="draft-button">
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">Draft</a>
     </div>
   </div>
 </div>
