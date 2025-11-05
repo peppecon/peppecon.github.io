@@ -66,7 +66,7 @@ author_profile: false
 }
 </style>
 
-## Work in Progress
+## Working Papers
 
 <div class="abstract-container">
   <div class="abstract-header">
@@ -84,6 +84,8 @@ author_profile: false
     </div>
   </div>
 </div>
+
+## Work in Progress
 
 - "The Declining Importance of Firms' Internal Labor Market: Evidence From Portugal"
 
