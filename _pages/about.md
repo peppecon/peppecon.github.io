@@ -50,31 +50,14 @@ My research explores **Macroeconomics**, **Labor Economics**, and **Structural E
   color: var(--text-secondary);
 }
 .abstract-expanded {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: start;
+  display: block;
 }
 .abstract-expanded .abstract-text {
-  font-size: 0.70rem;
+  font-size: 1.15rem;
   line-height: 1.8;
   text-align: justify;
   hyphens: auto;
   color: var(--text-secondary);
-}
-.abstract-expanded .abstract-figure {
-  text-align: center;
-}
-.abstract-expanded .abstract-figure img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-@media (max-width: 768px) {
-  .abstract-expanded {
-    grid-template-columns: 1fr;
-  }
 }
 .draft-button {
   margin-top: 20px;
@@ -104,9 +87,6 @@ My research explores **Macroeconomics**, **Labor Economics**, and **Structural E
     <div class="abstract-expanded">
       <div class="abstract-text">
         In this paper, I study occupational mobility and wage growth over the life cycle when workers have multidimensional, task-specific skills. Using Portuguese administrative data, I show that occupational mobility is informative of both workers sorting on comparative advantage and workers specializing in specific tasks, suggesting that workers can be mismatched along different dimensions. To understand the implications for wage growth and inequality, I develop a dynamic Roy model in which workers (i) have imperfect information about their multidimensional skills and (ii) accumulate task-specific human capital through work experience. Mismatch in the model arises endogenously as workers sort across occupations based on their beliefs. Estimating the model, I find that skills are positively but not perfectly correlated and that there are large differences in task productivity and returns to task experience across occupations. I show that skill mismatch generates substantial wage costs: on average, workers lose 12% of their realized wage at labor market entry, which declines to 8% after 20 years. These costs are highly heterogeneous and concentrated: low-skilled workers are disproportionately affected, facing costs three times as large as high-skilled workers throughout the life cycle.
-      </div>
-      <div class="abstract-figure">
-        <img src="/images/relative_wage_gains_lifecycle.png" alt="Relative Wage Gains Lifecycle" />
       </div>
     </div>
     <div class="draft-button">
