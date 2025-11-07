@@ -256,19 +256,17 @@ html.modern-layout {
 
 /* Profile Section */
 .author__avatar img {
-  width: 220px;
-  height: 220px;
+  width: 240px;
+  height: 240px;
   border-radius: 15px;
   object-fit: cover;
-  border: 3px solid var(--accent-color);
-  box-shadow: 0 8px 24px var(--shadow-medium);
-  transition: all 0.3s ease;
+  border: none;
+  box-shadow: none;
+  transition: transform 0.3s ease;
 }
 
 .author__avatar img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 32px var(--shadow-medium);
-  border-color: var(--accent-hover);
+  transform: scale(1.03);
 }
 
 .author__content {
