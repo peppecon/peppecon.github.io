@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan. During the Spring 2025, I visited Princeton University, hosted by [Gianluca Violante](https://violante.economics.princeton.edu/).
-
-My research explores **Macroeconomics**, **Labor Economics**, and **Structural Econometrics**, with a focus on how heterogeneity among workers and firms shapes aggregate economic dynamics and policy outcomes.
+I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan. My research explores **Macroeconomics**, **Labor Economics**, and **Structural Econometrics**, with a focus on how heterogeneity among workers and firms shapes aggregate economic dynamics and policy outcomes.
 
 ---
 

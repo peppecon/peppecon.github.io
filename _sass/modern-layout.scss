@@ -81,10 +81,17 @@ html.modern-layout {
 .content-section hr {
   border: none;
   height: 2px;
-  background: var(--gradient-accent);
+  background: var(--accent-color);
   margin: 40px 0;
   border-radius: 1px;
-  box-shadow: 0 2px 8px var(--shadow-blue);
+  box-shadow: none;
+}
+
+.home-page hr {
+  border: none;
+  height: 2px;
+  background: var(--accent-color);
+  margin: 40px 0;
 }
 
 .content-section em {
