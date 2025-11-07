@@ -5,13 +5,13 @@ html.modern-layout {
   --primary-bg: #ffffff !important;
   --secondary-bg: #ffffff !important;
   --tertiary-bg: #f5f7fb !important;
-  --text-primary: #1f3c88 !important;
-  --text-secondary: #2b4faa !important;
-  --text-muted: #5f7fd0 !important;
-  --accent-color: #1d4ed8 !important;
-  --accent-hover: #1e3a8a !important;
-  --accent-light: #3b82f6 !important;
-  --accent-dark: #1e3a8a !important;
+  --text-primary: #121212 !important;
+  --text-secondary: #1f1f1f !important;
+  --text-muted: #4b5563 !important;
+  --accent-color: #1f6aa5 !important;
+  --accent-hover: #174f7a !important;
+  --accent-light: #2d7fbd !important;
+  --accent-dark: #103856 !important;
   --border-color: #e2e8f0 !important;
   --border-accent: #cbd5e1 !important;
   --shadow-light: rgba(0, 0, 0, 0.05) !important;
@@ -113,6 +113,36 @@ html.modern-layout {
   position: absolute;
   left: 0;
   font-size: 0.8rem;
+}
+
+.content-section a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.content-section a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.content-section strong a {
+  color: var(--accent-color);
+}
+
+.content-section strong a:hover {
+  color: var(--accent-hover);
+}
+
+.abstract-header {
+  background-color: var(--tertiary-bg);
+  padding: 12px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
 }
 
 /* Floating Navigation */
