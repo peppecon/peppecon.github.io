@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="modern-body">
+  <body class="modern-body{% if page.url == '/' %} home-page{% endif %}">
     {% include browser-upgrade.html %}
     
     <!-- Floating Navigation -->
@@ -31,7 +31,7 @@ layout: compress
     </nav>
 
     <!-- Main Content Area -->
-    <main class="modern-main">
+    <main class="modern-main{% if page.url == '/' %} home-layout{% endif %}">
       <!-- Left Profile Section -->
       <aside class="profile-section">
         {% include author-profile.html %}
