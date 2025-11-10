@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan. I am interested in how workers sort across jobs and in understanding the consequences for human capital development and wages. I am also interested in how uncertainty shapes the behaviour of firms and workers and how those responses affect the aggregate economy.
+I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan. My research interests are in **Macroeconomics**, **Labor Economics**, and **Structural Econometrics**. I study how workers sort across jobs and the consequences for human capital development and wages. I am also interested in how uncertainty shapes the behaviour of firms and workers and how those responses affect the aggregate economy.
 
 ---
 
