@@ -281,12 +281,6 @@ html.modern-layout {
   align-items: start;
 }
 
-.modern-main.home-layout {
-  grid-template-columns: 430px minmax(0, 1fr);
-  gap: 4rem;
-  align-items: center;
-}
-
 /* Layout Sections */
 .profile-section {
   position: sticky;
@@ -294,19 +288,8 @@ html.modern-layout {
   height: fit-content;
 }
 
-.home-layout .profile-section {
-  position: relative;
-  top: auto;
-}
-
 .content-section {
   min-height: 600px;
-}
-
-.home-layout .content-section {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-right: 40px;
 }
 
 /* Profile Section */
@@ -373,10 +356,6 @@ html.modern-layout {
     padding: 120px 20px 40px;
   }
 
-  .modern-main.home-layout {
-    gap: 2.5rem;
-  }
-
   .profile-section {
     position: static;
     order: 2;
@@ -384,11 +363,6 @@ html.modern-layout {
 
   .content-section {
     order: 1;
-  }
-
-  .home-layout .content-section {
-    max-width: 100%;
-    padding-right: 0;
   }
 
   .floating-nav {
@@ -427,11 +401,6 @@ html.modern-layout {
   .author__avatar img {
     width: 150px;
     height: 150px;
-  }
-
-  .home-layout .author__avatar img {
-    width: 170px;
-    height: 170px;
   }
 }
 
