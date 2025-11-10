@@ -51,7 +51,7 @@ I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan.
   display: block;
 }
 .abstract-expanded .abstract-text {
-  font-size: 1.15rem;
+  font-size: 0.95rem;
   line-height: 1.8;
   text-align: justify;
   hyphens: auto;
