@@ -9,8 +9,6 @@ author_profile: false
 
 *Bocconi University, Milan (Italy)*
 
-## Courses supported
-
 - Financial Macroeconomics (Bachelor)
 - Econometrics (Bachelor)
 - Macroeconomics (Bachelor)
