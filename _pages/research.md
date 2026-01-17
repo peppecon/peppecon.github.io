@@ -90,7 +90,7 @@ author_profile: false
 
 ## Work in Progress
 
-- "The Declining Importance of Firms' Internal Labor Market: Evidence From Portugal"
+- "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
 
 <script>
 document.querySelectorAll('.abstract-header').forEach(header => {
