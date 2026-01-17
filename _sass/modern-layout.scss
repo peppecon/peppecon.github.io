@@ -36,17 +36,17 @@ html.modern-layout {
   max-width: 1800px;
   /* Massive width for ultra-long horizontal lines */
   margin: 0 auto;
-  padding: 100px 100px;
-  /* Extreme padding for an airy hub feel */
+  padding: 40px 100px 100px;
+  /* Reduced top padding to shift content up */
 }
 
 /* Centered Header */
 .site-header {
   text-align: center;
-  margin-bottom: 70px;
-  /* More space below header */
-  padding-top: 80px;
-  /* Even more top breathing room */
+  margin-bottom: 40px;
+  /* Reduced from 70px */
+  padding-top: 20px;
+  /* Reduced from 80px */
 }
 
 .site-title {
@@ -71,8 +71,8 @@ html.modern-layout {
   justify-content: center;
   gap: 20px;
   /* Increased from 12px */
-  margin-bottom: 80px;
-  /* More separation from content */
+  margin-bottom: 50px;
+  /* Reduced from 80px */
   flex-wrap: wrap;
 }
 
