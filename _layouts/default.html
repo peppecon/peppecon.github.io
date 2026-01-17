@@ -18,30 +18,35 @@ layout: compress
 
   <main class="modern-main">
     <!-- Centered Header -->
-    <header class="site-header">
+    <header class="site-header animate-in">
       <h1 class="site-title">{{ site.title }}</h1>
       <hr class="header-divider">
 
-      <!-- Global Pill Navigation -->
       <nav class="pill-nav">
-        <a href="{{ base_path }}/" class="pill-nav-link {% if page.url == '/' %}active{% endif %}">
-          <i class="fas fa-home"></i> Home
-        </a>
-        <a href="{{ base_path }}/research/" class="pill-nav-link {% if page.url == '/research/' %}active{% endif %}">
-          <i class="fas fa-flask"></i> Research
-        </a>
-        <a href="{{ base_path }}/teaching/" class="pill-nav-link {% if page.url == '/teaching/' %}active{% endif %}">
-          <i class="fas fa-chalkboard"></i> Teaching
-        </a>
-        <a href="{{ base_path }}/cv/" class="pill-nav-link {% if page.url == '/cv/' %}active{% endif %}">
-          <i class="fas fa-file-alt"></i> CV
-        </a>
+        <a href="{{ site.baseurl }}/" class="pill-nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="{{ site.baseurl }}/research/"
+          class="pill-nav-link {% if page.url contains '/research/' %}active{% endif %}">Research</a>
+        <a href="{{ site.baseurl }}/teaching/"
+          class="pill-nav-link {% if page.url contains '/teaching/' %}active{% endif %}">Teaching</a>
+        <a href="{{ site.baseurl }}/cv/" class="pill-nav-link {% if page.url contains '/cv/' %}active{% endif %}">CV</a>
+        <button id="site-theme-toggle" class="pill-nav-link theme-btn" aria-label="Toggle Theme" title="Switch Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin: 0;">
+            <path
+              d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+            </path>
+            <path d="m5 3 1 1"></path>
+            <path d="m19 17 1 1"></path>
+            <path d="M19 3l1 1"></path>
+            <path d="m5 17 1 1"></path>
+          </svg>
+        </button>
       </nav>
     </header>
 
     {% if page.url == '/' %}
     <!-- Home Page Hero (Pic + Bio) -->
-    <section class="hero-section">
+    <section class="hero-section animate-in" style="animation-delay: 0.1s;">
       <div class="hero-image-container">
         <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}" class="hero-image">
       </div>

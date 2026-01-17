@@ -1,18 +1,89 @@
 /* Modern Minimalist Centered Layout */
 
 html.modern-layout {
-  --primary-bg: #ffffff;
-  --secondary-bg: #ffffff;
-  --tertiary-bg: #f8fafc;
-  --text-primary: #1e293b;
-  --text-secondary: #334155;
-  --text-muted: #64748b;
-  --accent-color: #1f6aa5;
-  --accent-hover: #174f7a;
-  --accent-light: #eff6ff;
-  --border-color: #e2e8f0;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  /* Default Theme: Light Mode (Maximum Contrast) */
+  --primary-bg: #fafafa;
+  --secondary-bg: #f3f3f3;
+  --tertiary-bg: #e5e5e6;
+  --text-primary: #111111;
+  /* Deep Black */
+  --text-secondary: #444444;
+  /* Darker Slate */
+  --text-muted: #777777;
+  --accent-color: #0059b3;
+  /* High-contrast Deep Blue */
+  --accent-hover: #003d7a;
+  --accent-light: rgba(0, 89, 179, 0.08);
+  --border-color: #cccccc;
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 8px 24px rgba(0, 89, 179, 0.12);
+  --shadow-lg: 0 12px 32px rgba(0, 89, 179, 0.18);
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(0, 89, 179, 0.15);
+  --dot-color: #e5e5e6;
+
+  /* Typography Tokens */
+  --font-serif: 'Inter', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Cormorant Garamond', serif;
+  --glass-blur: blur(14px);
+
+  /* Global Transitions */
+  transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+/* Theme Override: Classic Dark (Maximum Visibility) */
+html.modern-layout[data-site-view="classic"] {
+  --primary-bg: #0d1117;
+  --secondary-bg: #161b22;
+  --tertiary-bg: #21262d;
+  --text-primary: #ffffff;
+  /* Pure White */
+  --text-secondary: #c9d1d9;
+  /* Light Silver */
+  --text-muted: #8b949e;
+  --accent-color: #58a6ff;
+  /* Radiant Blue */
+  --accent-hover: #79c0ff;
+  --accent-light: rgba(88, 166, 255, 0.15);
+  --border-color: #3e4451;
+  --shadow-sm: 0 0 10px rgba(88, 166, 255, 0.15);
+  --shadow-md: 0 0 20px rgba(88, 166, 255, 0.25);
+  --shadow-lg: 0 0 40px rgba(88, 166, 255, 0.4);
+  --glass-bg: rgba(13, 17, 23, 0.9);
+  --glass-border: rgba(88, 166, 255, 0.3);
+  --dot-color: #30363d;
+}
+
+/* Background Pattern - Softer Graphite Dot Grid */
+html.modern-layout::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: radial-gradient(var(--dot-color) 1px, transparent 1px);
+  background-size: 30px 30px;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modern-layout .animate-in {
+  animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 * {
@@ -22,13 +93,15 @@ html.modern-layout {
 .modern-body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', -apple-system, sans-serif;
+  font-family: var(--font-serif);
+  /* Everything is Serif now */
   color: var(--text-primary);
   background: var(--primary-bg);
-  line-height: 1.85;
-  /* Increased for more spacious text */
-  letter-spacing: 0.015em;
-  /* Increased horizontal spacing for text */
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  /* Looser for serif readability */
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 /* Global Container */
@@ -50,19 +123,26 @@ html.modern-layout {
 }
 
 .site-title {
-  font-size: 2.5rem;
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  /* Even larger for impact */
   font-weight: 800;
   color: var(--accent-color);
+  /* Atom Blue */
   margin: 0;
-  letter-spacing: 0.02em;
-  /* More horizontal breathing room */
+  letter-spacing: -0.03em;
+  text-shadow: 0 0 25px rgba(97, 175, 239, 0.4);
+  /* Blue Glow */
 }
 
 /* Horizontal Rule style */
 .header-divider {
   border: 0;
-  border-top: 1px solid var(--border-color);
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent-color), transparent);
   margin: 20px 0 40px;
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+  opacity: 0.6;
 }
 
 /* Pill Navigation */
@@ -80,24 +160,57 @@ html.modern-layout {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 18px;
-  background: var(--tertiary-bg);
+  padding: 10px 22px;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
   color: var(--text-secondary);
   border-radius: 9999px;
   text-decoration: none !important;
   font-weight: 600;
   font-size: 0.95rem;
-  border: 1px solid var(--border-color);
-  transition: all 0.2s ease;
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.pill-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+  opacity: 0.5;
+}
+
+.pill-nav-link:hover::after,
+.pill-nav-link.active::after {
+  width: 40%;
 }
 
 .pill-nav-link:hover,
 .pill-nav-link.active {
   background: var(--accent-color);
   color: white !important;
+  /* White text on blue pill for both modes */
   border-color: var(--accent-color);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px var(--shadow-md);
+}
+
+.theme-btn {
+  cursor: pointer;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Hero Section (Pic + Bio) */
@@ -123,8 +236,18 @@ html.modern-layout {
   object-fit: cover;
   object-position: center;
   border-radius: 24px;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 0 45px var(--shadow-sm);
+  /* Dynamic Aura */
   display: block;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--glass-border);
+}
+
+.hero-image:hover {
+  transform: scale(1.02) rotate(1deg);
+  box-shadow: 0 0 65px var(--shadow-md);
+  /* Dynamic Intense Glow */
+  border-color: var(--accent-color);
 }
 
 .hero-bio {
@@ -140,14 +263,22 @@ html.modern-layout {
 }
 
 .content-section h2 {
-  font-size: 1.1rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 10px;
-  margin: 60px 0 30px;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  /* Larger and more expressive */
+  font-weight: 700;
+  text-transform: none;
+  /* Serifs look better in mixed case */
+  letter-spacing: -0.01em;
+  color: var(--accent-color);
+  /* Blue Headings */
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 12px;
+  margin: 80px 0 40px;
+  text-shadow: 0 0 15px var(--shadow-md);
+  /* Dynamic Glow */
+  box-shadow: 0 4px 15px -12px var(--accent-color);
+  transition: color 0.5s ease, border-color 0.5s ease, text-shadow 0.5s ease;
 }
 
 /* Interest Tags (used in bio) */
@@ -163,16 +294,35 @@ html.modern-layout {
   font-weight: 600;
   color: var(--accent-color);
   background: var(--accent-light);
-  padding: 4px 12px;
-  border-radius: 4px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  /* Pill style */
+  border: 1px solid rgba(13, 148, 136, 0.1);
+  transition: all 0.2s ease;
+}
+
+.interest-tag:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: translateY(-1px);
 }
 
 /* Abstract Container */
 .abstract-container {
-  margin: 20px 0;
+  margin: 30px 0;
   border: 1px solid var(--border-color);
-  border-radius: 8px;
-  background: var(--primary-bg);
+  border-radius: 16px;
+  /* More rounded */
+  background: var(--secondary-bg);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.abstract-container:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 25px rgba(97, 175, 239, 0.15);
+  transform: translateY(-2px);
 }
 
 .abstract-header {
@@ -233,18 +383,50 @@ html.modern-layout {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .modern-main {
+    padding: 20px 20px 60px;
+  }
+
+  .site-header {
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  .site-title {
+    font-size: 2.2rem;
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+  }
+
+  .pill-nav {
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .pill-nav-link {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+
   .hero-section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 25px;
+    gap: 30px;
   }
 
-  .site-title {
-    font-size: 2rem;
+  .hero-image {
+    width: 240px;
+    height: 240px;
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.2);
   }
 
-  .pill-nav {
-    margin-bottom: 40px;
+  .content-section h2 {
+    font-size: 1.25rem;
+    margin-top: 50px;
+  }
+
+  .abstract-content {
+    padding: 15px 15px 30px;
+    font-size: 1rem;
   }
 }
