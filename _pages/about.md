@@ -17,6 +17,21 @@ My research focuses on how workers sort across jobs and the consequences for hum
   <div class="interest-tag"><i class="fas fa-microchip"></i> Structural Econometrics</div>
 </div>
 
+<div class="primary-nav-grid">
+  <a href="{{ base_path }}/research/" class="nav-card">
+    <i class="fas fa-flask"></i>
+    <span>Research</span>
+  </a>
+  <a href="{{ base_path }}/teaching/" class="nav-card">
+    <i class="fas fa-chalkboard-teacher"></i>
+    <span>Teaching</span>
+  </a>
+  <a href="{{ base_path }}/cv/" class="nav-card">
+    <i class="fas fa-file-alt"></i>
+    <span>CV</span>
+  </a>
+</div>
+
 ---
 
 ### Recent Updates

@@ -5,45 +5,32 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js modern-layout"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js modern-layout" {% if site.site_theme=="dark" %}
+  data-theme="dark" {% endif %}>
 
-  <body class="modern-body{% if page.url == '/' %} home-page{% endif %}">
-    {% include browser-upgrade.html %}
-    
-    <!-- Floating Navigation -->
-    <nav class="floating-nav">
-      <div class="nav-container">
-        <div class="nav-menu">
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <a href="{{ domain }}{{ link.url }}" class="nav-link">{{ link.title }}</a>
-          {% endfor %}
-        </div>
-      </div>
-    </nav>
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-    <!-- Main Content Area -->
-    <main class="modern-main">
-      <!-- Left Profile Section -->
-      <aside class="profile-section">
-        {% include author-profile.html %}
-      </aside>
+<body class="modern-body{% if page.url == '/' %} home-page{% endif %}">
+  {% include browser-upgrade.html %}
 
-      <!-- Center Content Area -->
-      <section class="content-section">
-        {{ content }}
-      </section>
-    </main>
+  <!-- Main Content Area -->
+  <main class="modern-main">
+    <!-- Left Profile Section -->
+    <aside class="profile-section">
+      {% include author-profile.html %}
+    </aside>
+
+    <!-- Center Content Area -->
+    <section class="content-section">
+      {{ content }}
+    </section>
+  </main>
 
 
-    {% include scripts.html %}
-  </body>
+  {% include scripts.html %}
+</body>
+
 </html>
