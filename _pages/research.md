@@ -5,67 +5,6 @@ permalink: /research/
 author_profile: false
 ---
 
-<style>
-.abstract-container {
-  margin: 20px 0;
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  overflow: hidden;
-}
-.abstract-header {
-  background-color: var(--tertiary-bg);
-  padding: 12px 15px;
-  cursor: pointer;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: background-color 0.3s ease;
-}
-.abstract-header:hover {
-  background-color: var(--border-color);
-}
-.abstract-header .arrow {
-  transition: transform 0.3s ease;
-}
-.abstract-header.expanded .arrow {
-  transform: rotate(90deg);
-}
-.abstract-content {
-  display: none;
-  padding: 15px;
-  line-height: 1.8;
-  color: var(--text-secondary);
-}
-.abstract-expanded {
-  display: block;
-}
-.abstract-expanded .abstract-text {
-  font-size: 0.95rem;
-  line-height: 1.8;
-  text-align: justify;
-  hyphens: auto;
-  color: var(--text-secondary);
-}
-.draft-button {
-  margin-top: 20px;
-  text-align: center;
-}
-.draft-button a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--accent-color, #ff6b35);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-.draft-button a:hover {
-  background-color: var(--accent-color-hover, #e55a2b);
-}
-</style>
-
 ## Working Papers
 
 <div class="abstract-container">
@@ -91,16 +30,4 @@ author_profile: false
 ## Work in Progress
 
 - "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
-
-<script>
-document.querySelectorAll('.abstract-header').forEach(header => {
-  header.addEventListener('click', function() {
-    const content = this.nextElementSibling;
-    const isExpanded = content.style.display === 'block';
-    
-    content.style.display = isExpanded ? 'none' : 'block';
-    this.classList.toggle('expanded');
-  });
-});
-</script>
 
