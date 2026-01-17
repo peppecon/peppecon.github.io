@@ -16,19 +16,46 @@ layout: compress
 <body class="modern-body{% if page.url == '/' %} home-page{% endif %}">
   {% include browser-upgrade.html %}
 
-  <!-- Main Content Area -->
   <main class="modern-main">
-    <!-- Left Profile Section -->
-    <aside class="profile-section">
-      {% include author-profile.html %}
-    </aside>
+    <!-- Centered Header -->
+    <header class="site-header">
+      <h1 class="site-title">{{ site.title }}</h1>
+      <hr class="header-divider">
 
-    <!-- Center Content Area -->
-    <section class="content-section">
-      {{ content }}
+      <!-- Global Pill Navigation -->
+      <nav class="pill-nav">
+        <a href="{{ base_path }}/" class="pill-nav-link {% if page.url == '/' %}active{% endif %}">
+          <i class="fas fa-home"></i> Home
+        </a>
+        <a href="{{ base_path }}/research/" class="pill-nav-link {% if page.url == '/research/' %}active{% endif %}">
+          <i class="fas fa-flask"></i> Research
+        </a>
+        <a href="{{ base_path }}/teaching/" class="pill-nav-link {% if page.url == '/teaching/' %}active{% endif %}">
+          <i class="fas fa-chalkboard"></i> Teaching
+        </a>
+        <a href="{{ base_path }}/cv/" class="pill-nav-link {% if page.url == '/cv/' %}active{% endif %}">
+          <i class="fas fa-file-alt"></i> CV
+        </a>
+      </nav>
+    </header>
+
+    {% if page.url == '/' %}
+    <!-- Home Page Hero (Pic + Bio) -->
+    <section class="hero-section">
+      <div class="hero-image-container">
+        <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}" class="hero-image">
+      </div>
+      <div class="hero-bio">
+        {{ content }}
+      </div>
     </section>
+    {% else %}
+    <!-- Internal Page content -->
+    <article class="content-section">
+      {{ content }}
+    </article>
+    {% endif %}
   </main>
-
 
   {% include scripts.html %}
 </body>
