@@ -28,6 +28,6 @@ Teaching assistant for the course.
   </div>
 </div>
 
-- Financial Macroeconomics (Bachelor)
-- Econometrics (Bachelor)
-- Macroeconomics (Bachelor)
+* Financial Macroeconomics (Bachelor)
+* Econometrics (Bachelor)
+* Macroeconomics (Bachelor)

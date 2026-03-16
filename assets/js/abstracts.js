@@ -11,6 +11,11 @@
 
                 content.style.display = isExpanded ? 'none' : 'block';
                 this.classList.toggle('expanded');
+
+                // Re-typeset math if MathJax is loaded
+                if (!isExpanded && window.MathJax && window.MathJax.typesetPromise) {
+                    window.MathJax.typesetPromise([content]);
+                }
             });
         });
     };
