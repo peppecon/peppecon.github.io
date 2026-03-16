@@ -30,8 +30,6 @@ author_profile: false
   </div>
   <div class="abstract-content" markdown="1">
 
-# Computational Economics: Projection Methods and NGM Applications
-
 This repository contains implementations of numerical methods for solving dynamic economic models, focusing on **Projection Methods** (Chebyshev Polynomials) and their application to the **Neoclassical Growth Model (NGM)**.
 
 ## Project Overview
