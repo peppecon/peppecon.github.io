@@ -53,25 +53,8 @@ Teaching assistant for the course.
   <div class="abstract-content" markdown="1">
 Teaching assistant for the course.
 
-<div class="abstract-container" style="margin-top: 20px;">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>TA1 - Introduction</span>
-  </div>
-  <div class="abstract-content" markdown="1">
-    [Download TA1 Materials](/files/teaching/TA1.pdf)
-  </div>
-</div>
-
-<div class="abstract-container" style="margin-top: 10px;">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>TA2 - Advanced Topics</span>
-  </div>
-  <div class="abstract-content" markdown="1">
-    [Download TA2 Materials](/files/teaching/TA2_newformat.pdf)
-  </div>
-</div>
+- [TA1](/files/teaching/TA1.pdf)
+- [TA2](/files/teaching/TA2_newformat.pdf)
 
   </div>
 </div>
