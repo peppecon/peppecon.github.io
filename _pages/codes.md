@@ -7,10 +7,25 @@ author_profile: false
 
 <style>
   .abstract-content img {
-    max-width: 60%;
+    max-width: 85%;
     height: auto;
     display: block;
     margin: 20px auto;
+  }
+  .abstract-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: inherit;
+  }
+  .abstract-content th, .abstract-content td {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    text-align: left;
+  }
+  .abstract-content th {
+    background-color: var(--tertiary-bg);
+    color: var(--text-primary);
   }
   .link-secondary {
     font-size: 0.9rem;
