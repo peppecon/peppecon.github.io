@@ -5,20 +5,30 @@ permalink: /codes/
 author_profile: false
 ---
 
-## Computational Economics
+<style>
+  .abstract-content img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  .link-secondary {
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+</style>
 
-- [Main Repository](https://github.com/peppecon/Computational-Economics)
+## Computational Economics <a href="https://github.com/peppecon/Computational-Economics" target="_blank" class="link-secondary">(Link to GitHub Repository)</a>
 
 <div class="abstract-container">
   <div class="abstract-header">
     <span class="arrow">▶</span>
-    <a href="https://github.com/peppecon/Computational-Economics/tree/main/Projection%20Methods%20with%20NGM%20Application" target="_blank" onclick="event.stopPropagation();" style="text-decoration: none; color: inherit;">Projection Methods with Neoclassical Growth Model Application</a>
+    <span>Projection Methods with Neoclassical Growth Model Application</span>
+    <a href="https://github.com/peppecon/Computational-Economics/tree/main/Projection%20Methods%20with%20NGM%20Application" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
   </div>
   <div class="abstract-content" markdown="1">
-
-<div class="draft-button" style="margin-bottom: 20px;">
-  <a href="https://github.com/peppecon/Computational-Economics/tree/main/Projection%20Methods%20with%20NGM%20Application" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-</div>
 
 # Computational Economics: Projection Methods and NGM Applications
 
