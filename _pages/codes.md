@@ -51,7 +51,7 @@ This repository contains implementations of numerical methods for solving dynami
 
 The project is structured to demonstrate:
 1.  **Direct Implementation of Projection Methods**: Using Chebyshev polynomials to approximate value and policy functions.
-2.  **Advanced Application**: Solving the **Stochastic NGM with Endogenous Labor Supply** using global solution methods.
+2.  **Application**: Solving the **Stochastic NGM with Endogenous Labor Supply** using global solution methods.
 
 ## 1. Function Approximation & Teaching Material
 
