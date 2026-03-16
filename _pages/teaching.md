@@ -18,6 +18,19 @@ author_profile: false
 <div class="abstract-container teaching-dropdown">
   <div class="abstract-header">
     <span class="arrow">▶</span>
+    <span>Monetary Theory and Policy (Bachelor)</span>
+  </div>
+  <div class="abstract-content" markdown="1">
+Teaching assistant for the course.
+
+- [TA1](/files/teaching/TA1.pdf)
+- [TA2](/files/teaching/TA2_newformat.pdf)
+  </div>
+</div>
+
+<div class="abstract-container teaching-dropdown">
+  <div class="abstract-header">
+    <span class="arrow">▶</span>
     <span>Financial Macroeconomics (Bachelor)</span>
   </div>
   <div class="abstract-content" markdown="1">
@@ -42,19 +55,5 @@ Teaching assistant for the course.
   </div>
   <div class="abstract-content" markdown="1">
 Teaching assistant for the course.
-  </div>
-</div>
-
-<div class="abstract-container teaching-dropdown">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Monetary Theory and Policy (Bachelor)</span>
-  </div>
-  <div class="abstract-content" markdown="1">
-Teaching assistant for the course.
-
-- [TA1](/files/teaching/TA1.pdf)
-- [TA2](/files/teaching/TA2_newformat.pdf)
-
   </div>
 </div>
