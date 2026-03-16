@@ -5,19 +5,20 @@ permalink: /codes/
 author_profile: false
 ---
 
-## Repositories
+## Computational Economics
 
-- [Computational Economics](https://github.com/peppecon/Computational-Economics)
+- [Main Repository](https://github.com/peppecon/Computational-Economics)
 
 <div class="abstract-container">
   <div class="abstract-header">
     <span class="arrow">▶</span>
     <a href="https://github.com/peppecon/Computational-Economics/tree/main/Projection%20Methods%20with%20NGM%20Application" target="_blank" onclick="event.stopPropagation();" style="text-decoration: none; color: inherit;">Projection Methods with Neoclassical Growth Model Application</a>
   </div>
-  <div class="abstract-content">
-    <div class="draft-button" style="margin-bottom: 20px;">
-      <a href="https://github.com/peppecon/Computational-Economics/tree/main/Projection%20Methods%20with%20NGM%20Application" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
+  <div class="abstract-content" markdown="1">
+
+<div class="draft-button" style="margin-bottom: 20px;">
+  <a href="https://github.com/peppecon/Computational-Economics/tree/main/Projection%20Methods%20with%20NGM%20Application" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
 
 # Computational Economics: Projection Methods and NGM Applications
 
@@ -97,5 +98,6 @@ Measurement of numerical precision as a function of the polynomial degree ($n$).
 ## Requirements
 - Python 3.x
 - NumPy, SciPy, Matplotlib
+
   </div>
 </div>
