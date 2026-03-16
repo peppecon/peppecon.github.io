@@ -20,11 +20,12 @@ author_profile: false
     <span class="arrow">▶</span>
     <span>Monetary Theory and Policy (Bachelor)</span>
   </div>
-  <div class="abstract-content" markdown="1">
-Teaching assistant for the course.
-
-- [TA1](/files/teaching/TA1.pdf)
-- [TA2](/files/teaching/TA2_newformat.pdf)
+  <div class="abstract-content">
+    <p>Teaching assistant for the course.</p>
+    <ul>
+      <li><a href="/files/teaching/TA1.pdf">TA1</a></li>
+      <li><a href="/files/teaching/TA2_newformat.pdf">TA2</a></li>
+    </ul>
   </div>
 </div>
 
