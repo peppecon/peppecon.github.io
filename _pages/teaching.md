@@ -28,32 +28,6 @@ Teaching assistant for the course.
   </div>
 </div>
 
-<div class="abstract-container teaching-dropdown">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Financial Macroeconomics (Bachelor)</span>
-  </div>
-  <div class="abstract-content" markdown="1">
-Teaching assistant for the course.
-  </div>
-</div>
-
-<div class="abstract-container teaching-dropdown">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Econometrics (Bachelor)</span>
-  </div>
-  <div class="abstract-content" markdown="1">
-Teaching assistant for the course.
-  </div>
-</div>
-
-<div class="abstract-container teaching-dropdown">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Macroeconomics (Bachelor)</span>
-  </div>
-  <div class="abstract-content" markdown="1">
-Teaching assistant for the course.
-  </div>
-</div>
+- Financial Macroeconomics (Bachelor)
+- Econometrics (Bachelor)
+- Macroeconomics (Bachelor)
