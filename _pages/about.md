@@ -11,6 +11,8 @@ Welcome!
 
 I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan.
 
+This Spring semester, I will be a Visiting Student Researcher at the Stanford Economics Department, hosted by [Luigi Bocola](https://lbocola.people.stanford.edu/).
+
 My research focuses on how workers sort across jobs and the consequences for human capital and wages. I am particularly interested in how uncertainty shapes the behaviour of firms and workers and how those responses affect the aggregate economy.
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
