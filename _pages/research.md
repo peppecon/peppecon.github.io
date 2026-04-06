@@ -16,14 +16,14 @@ author_profile: false
     <div class="abstract-expanded">
       <div class="abstract-text">
 What are the consequences of early-career skill mismatch for individual wages
-and aggregate productivity? To answer this question, I develop a general equi-
-librium dynamic Roy model in which workers have imperfect information about
+and aggregate productivity? To answer this question, I develop a general equilibrium
+dynamic Roy model in which workers have imperfect information about
 their multidimensional skills and accumulate task-specific human capital on the
-job. Estimating the model on Portuguese administrative data, I find that early-
-career mismatch driven by information frictions generates a 6.7% loss in aggregate
+job. Estimating the model on Portuguese administrative data, I find that early-career
+mismatch driven by information frictions generates a 6.7% loss in aggregate
 productivity. Wage losses from mismatch are largest early in the career, but persist
-over the lifecycle because of switching costs and imperfect transferability of hu-
-man capital. I then study policy counterfactuals aimed at reducing this persistent
+over the lifecycle because of switching costs and imperfect transferability of human
+capital. I then study policy counterfactuals aimed at reducing this persistent
 mismatch. Reducing switching costs lowers the aggregate cost of mismatch, while
 encouraging early-career experimentation increases wages later in life, at the cost
 of lower wages initially. Finally, I examine how artificial intelligence affects the cost
