@@ -44,4 +44,6 @@ What are the consequences of early-career skill mismatch for individual wages an
 
 ## Work in Progress
 
+- "Artificial Intelligence and Multidimensional Skill Uncertainty"
+
 - "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
