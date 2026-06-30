@@ -44,6 +44,6 @@ What are the consequences of multidimensional skill uncertainty for individual w
 
 ## Work in Progress
 
-- "How Does Job Transformation Affect Skill Mismatch?"
+- "The Anatomy of the Education Wage Premium"
 
 - "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
