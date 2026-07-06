@@ -42,6 +42,8 @@ What are the consequences of multidimensional skill uncertainty for individual w
   </div>
 </div>
 
+*🏆 Best Young Scholar Paper Award - First Prize - CEF Conference, Venice 2026*
+
 ## Work in Progress
 
 - "The Anatomy of the Education Wage Premium"
