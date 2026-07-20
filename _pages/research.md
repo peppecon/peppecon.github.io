@@ -28,7 +28,7 @@ What are the consequences of multidimensional skill uncertainty for workers' wag
 
 ## Work in Progress
 
-- "The Anatomy of the Education Wage Premium"
+- "The Experimentation Value of Occupations"
 
 - "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
 
