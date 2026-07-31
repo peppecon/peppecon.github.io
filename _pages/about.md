@@ -9,15 +9,15 @@ redirect_from:
 
 Welcome!
 
-### **I will be on the 2026/2027 academic job market.**
-
 I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan.
 
-In Spring 2026, I will be a Visiting Student Researcher at the Stanford Economics Department, hosted by [Luigi Bocola](https://lbocola.people.stanford.edu/). During the Spring 2025 term, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
+### **I will be on the 2026/2027 academic job market.**
 
 My research focuses on how workers sort across jobs and the consequences for human capital and wages. I am particularly interested in how uncertainty shapes the behaviour of firms and workers and how those responses affect the aggregate economy.
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
+
+In Spring 2026, I will be a Visiting Student Researcher at the Stanford Economics Department, hosted by Luigi Bocola. During the Spring 2025 term, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
 
 **Contact**: [piero.dedominicis (at) unibocconi.it](mailto:piero.dedominicis@unibocconi.it)
 <br>
