@@ -19,7 +19,7 @@ What are the consequences of multidimensional skill uncertainty for workers’ w
       </div>
     </div>
     <div class="draft-button">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">Draft</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" target="_blank" rel="noopener noreferrer">NBER SI Slides</a>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">Draft</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER SI Slides</a>
     </div>
   </div>
 </div>

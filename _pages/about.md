@@ -17,7 +17,7 @@ My research focuses on how workers sort across jobs and the consequences for hum
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
 
-In Spring 2026, I will be a Visiting Student Researcher at the Stanford Economics Department, hosted by Luigi Bocola. During the Spring 2025 term, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
+In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During the Spring 2025 term, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
 
 **Contact**: [piero.dedominicis (at) unibocconi.it](mailto:piero.dedominicis@unibocconi.it)
 <br>
@@ -39,7 +39,7 @@ What are the consequences of multidimensional skill uncertainty for workers’ w
       </div>
     </div>
     <div class="draft-button">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">Draft</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" target="_blank" rel="noopener noreferrer">NBER SI Slides</a>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">Draft</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER SI Slides</a>
     </div>
   </div>
 </div>
