@@ -30,7 +30,7 @@ X: [@peppecon](https://twitter.com/peppecon) | [Google Scholar]({{ site.author.g
 <div class="abstract-container">
   <div class="abstract-header">
     <span class="arrow">▶</span>
-    <span>"The Micro and Macro Implications of Multidimensional Skill Uncertainty"</span>
+    <span>"The Micro and Macro Implications of Multidimensional Skill Uncertainty" <strong>[Job Market Paper]</strong></span>
   </div>
   <div class="abstract-content">
     <div class="abstract-expanded">
@@ -44,7 +44,7 @@ What are the consequences of multidimensional skill uncertainty for workers' wag
   </div>
 </div>
 
-*Best Young Scholar Paper Award - First Prize - CEF Conference, Venice 2026*
+**🏆 Best Young Scholar Paper Award - First Prize - CEF Conference, Venice 2026**
 
 ## Work in Progress
 
