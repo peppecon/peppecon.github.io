@@ -55,6 +55,60 @@ html.modern-layout[data-site-view="classic"] {
   --dot-color: #30363d;
 }
 
+/* Preset Style 1: Classic Ivy League (Oxford Navy & Serif) */
+html.modern-layout[data-theme-preset="ivy"] {
+  --primary-bg: #f9f9f8;
+  --secondary-bg: #ffffff;
+  --tertiary-bg: #f0f0ee;
+  --text-primary: #1b2a4a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --accent-color: #1b365d;
+  --accent-hover: #0f2240;
+  --accent-light: rgba(27, 54, 93, 0.08);
+  --border-color: #cbd5e1;
+  --font-serif: 'EB Garamond', 'Georgia', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'EB Garamond', serif;
+  --dot-color: #e2e8f0;
+}
+
+/* Preset Style 2: Modern Stanford (Redwood & Tech Sans) */
+html.modern-layout[data-theme-preset="stanford"] {
+  --primary-bg: #fafafa;
+  --secondary-bg: #ffffff;
+  --tertiary-bg: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --accent-color: #8c1515;
+  --accent-hover: #600000;
+  --accent-light: rgba(140, 21, 21, 0.08);
+  --border-color: #e2e8f0;
+  --font-serif: 'Plus Jakarta Sans', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --dot-color: #cbd5e1;
+}
+
+/* Preset Style 3: Warm Editorial (NBER Paper Crimson & Parchment) */
+html.modern-layout[data-theme-preset="editorial"] {
+  --primary-bg: #fdfbf7;
+  --secondary-bg: #f6f3ed;
+  --tertiary-bg: #eae5dc;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --accent-color: #9b2c2c;
+  --accent-hover: #742a2a;
+  --accent-light: rgba(155, 44, 44, 0.08);
+  --border-color: #e2e8f0;
+  --font-serif: 'Newsreader', 'Merriweather', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Newsreader', serif;
+  --dot-color: #e2e8f0;
+}
+
 /* Background Pattern - Softer Graphite Dot Grid */
 html.modern-layout::after {
   content: "";
