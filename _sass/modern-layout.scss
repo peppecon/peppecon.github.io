@@ -1,113 +1,54 @@
 /* Modern Minimalist Centered Layout */
 
 html.modern-layout {
-  /* Default Theme: Light Mode (Maximum Contrast) */
-  --primary-bg: #fafafa;
-  --secondary-bg: #f3f3f3;
-  --tertiary-bg: #e5e5e6;
-  --text-primary: #111111;
-  /* Deep Black */
-  --text-secondary: #444444;
-  /* Darker Slate */
-  --text-muted: #777777;
-  --accent-color: #0059b3;
-  /* High-contrast Deep Blue */
-  --accent-hover: #003d7a;
-  --accent-light: rgba(0, 89, 179, 0.08);
-  --border-color: #cccccc;
-  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 8px 24px rgba(0, 89, 179, 0.12);
-  --shadow-lg: 0 12px 32px rgba(0, 89, 179, 0.18);
-  --glass-bg: rgba(255, 255, 255, 0.9);
-  --glass-border: rgba(0, 89, 179, 0.15);
-  --dot-color: #e5e5e6;
+  /* Warm Editorial Light Mode */
+  --primary-bg: #fdfbf7;
+  --secondary-bg: #f5f2eb;
+  --tertiary-bg: #e9e4d9;
+  --text-primary: #2c2724;
+  --text-secondary: #4a443f;
+  --text-muted: #78716c;
+  --accent-color: #9b2c2c; /* Deep Crimson / Burgundy */
+  --accent-hover: #742a2a;
+  --accent-light: rgba(155, 44, 44, 0.08);
+  --border-color: #e7e2d7;
+  --shadow-sm: 0 4px 12px rgba(44, 39, 36, 0.06);
+  --shadow-md: 0 8px 24px rgba(155, 44, 44, 0.1);
+  --shadow-lg: 0 12px 32px rgba(155, 44, 44, 0.15);
+  --glass-bg: rgba(253, 251, 247, 0.92);
+  --glass-border: rgba(155, 44, 44, 0.15);
+  --dot-color: #e7e2d7;
 
   /* Typography Tokens */
-  --font-serif: 'Inter', sans-serif;
+  --font-serif: 'Newsreader', 'Merriweather', 'Georgia', serif;
   --font-sans: 'Inter', sans-serif;
-  --font-display: 'Cormorant Garamond', serif;
+  --font-display: 'Newsreader', serif;
   --glass-blur: blur(14px);
 
   /* Global Transitions */
   transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
-/* Theme Override: Classic Dark (Maximum Visibility) */
+/* Warm Editorial Dark Mode */
 html.modern-layout[data-site-view="classic"] {
-  --primary-bg: #0d1117;
-  --secondary-bg: #161b22;
-  --tertiary-bg: #21262d;
-  --text-primary: #ffffff;
-  /* Pure White */
-  --text-secondary: #c9d1d9;
-  /* Light Silver */
-  --text-muted: #8b949e;
-  --accent-color: #58a6ff;
-  /* Radiant Blue */
-  --accent-hover: #79c0ff;
-  --accent-light: rgba(88, 166, 255, 0.15);
-  --border-color: #3e4451;
-  --shadow-sm: 0 0 10px rgba(88, 166, 255, 0.15);
-  --shadow-md: 0 0 20px rgba(88, 166, 255, 0.25);
-  --shadow-lg: 0 0 40px rgba(88, 166, 255, 0.4);
-  --glass-bg: rgba(13, 17, 23, 0.9);
-  --glass-border: rgba(88, 166, 255, 0.3);
-  --dot-color: #30363d;
+  --primary-bg: #141210;
+  --secondary-bg: #1d1a17;
+  --tertiary-bg: #27231f;
+  --text-primary: #f3efe6;
+  --text-secondary: #d6cfc4;
+  --text-muted: #a1988a;
+  --accent-color: #e53e3e; /* Warm Radiant Crimson */
+  --accent-hover: #fc8181;
+  --accent-light: rgba(229, 62, 62, 0.15);
+  --border-color: #36302a;
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(229, 62, 62, 0.2);
+  --shadow-lg: 0 12px 32px rgba(229, 62, 62, 0.3);
+  --glass-bg: rgba(20, 18, 16, 0.92);
+  --glass-border: rgba(229, 62, 62, 0.25);
+  --dot-color: #2a2520;
 }
 
-/* Preset Style 1: Classic Ivy League (Oxford Navy & Serif) */
-html.modern-layout[data-theme-preset="ivy"] {
-  --primary-bg: #f9f9f8;
-  --secondary-bg: #ffffff;
-  --tertiary-bg: #f0f0ee;
-  --text-primary: #1b2a4a;
-  --text-secondary: #334155;
-  --text-muted: #64748b;
-  --accent-color: #1b365d;
-  --accent-hover: #0f2240;
-  --accent-light: rgba(27, 54, 93, 0.08);
-  --border-color: #cbd5e1;
-  --font-serif: 'EB Garamond', 'Georgia', serif;
-  --font-sans: 'Inter', sans-serif;
-  --font-display: 'EB Garamond', serif;
-  --dot-color: #e2e8f0;
-}
-
-/* Preset Style 2: Modern Stanford (Redwood & Tech Sans) */
-html.modern-layout[data-theme-preset="stanford"] {
-  --primary-bg: #fafafa;
-  --secondary-bg: #ffffff;
-  --tertiary-bg: #f1f5f9;
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-muted: #64748b;
-  --accent-color: #8c1515;
-  --accent-hover: #600000;
-  --accent-light: rgba(140, 21, 21, 0.08);
-  --border-color: #e2e8f0;
-  --font-serif: 'Plus Jakarta Sans', sans-serif;
-  --font-sans: 'Plus Jakarta Sans', sans-serif;
-  --font-display: 'Plus Jakarta Sans', sans-serif;
-  --dot-color: #cbd5e1;
-}
-
-/* Preset Style 3: Warm Editorial (NBER Paper Crimson & Parchment) */
-html.modern-layout[data-theme-preset="editorial"] {
-  --primary-bg: #fdfbf7;
-  --secondary-bg: #f6f3ed;
-  --tertiary-bg: #eae5dc;
-  --text-primary: #2d3748;
-  --text-secondary: #4a5568;
-  --text-muted: #718096;
-  --accent-color: #9b2c2c;
-  --accent-hover: #742a2a;
-  --accent-light: rgba(155, 44, 44, 0.08);
-  --border-color: #e2e8f0;
-  --font-serif: 'Newsreader', 'Merriweather', serif;
-  --font-sans: 'Inter', sans-serif;
-  --font-display: 'Newsreader', serif;
-  --dot-color: #e2e8f0;
-}
 
 /* Background Pattern - Softer Graphite Dot Grid */
 html.modern-layout::after {
