@@ -30,4 +30,5 @@ What are the consequences of multidimensional skill uncertainty for workers’ w
 
 - "The Experimentation Value of Occupations"
 
+- "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
 
