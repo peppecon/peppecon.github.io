@@ -1,22 +1,22 @@
 /* Modern Minimalist Centered Layout */
 
 html.modern-layout {
-  /* Warm Editorial Light Mode */
+  /* Warm Editorial Light Mode (Bocconi Dark Blue Accent) */
   --primary-bg: #fdfbf7;
   --secondary-bg: #f5f2eb;
   --tertiary-bg: #e9e4d9;
   --text-primary: #2c2724;
   --text-secondary: #4a443f;
   --text-muted: #78716c;
-  --accent-color: #9b2c2c; /* Deep Crimson / Burgundy */
-  --accent-hover: #742a2a;
-  --accent-light: rgba(155, 44, 44, 0.08);
+  --accent-color: #003366; /* Bocconi Dark Blue */
+  --accent-hover: #001f3f;
+  --accent-light: rgba(0, 51, 102, 0.08);
   --border-color: #e7e2d7;
   --shadow-sm: 0 4px 12px rgba(44, 39, 36, 0.06);
-  --shadow-md: 0 8px 24px rgba(155, 44, 44, 0.1);
-  --shadow-lg: 0 12px 32px rgba(155, 44, 44, 0.15);
+  --shadow-md: 0 8px 24px rgba(0, 51, 102, 0.12);
+  --shadow-lg: 0 12px 32px rgba(0, 51, 102, 0.18);
   --glass-bg: rgba(253, 251, 247, 0.92);
-  --glass-border: rgba(155, 44, 44, 0.15);
+  --glass-border: rgba(0, 51, 102, 0.15);
   --dot-color: #e7e2d7;
 
   /* Typography Tokens */
@@ -37,15 +37,15 @@ html.modern-layout[data-site-view="classic"] {
   --text-primary: #f3efe6;
   --text-secondary: #d6cfc4;
   --text-muted: #a1988a;
-  --accent-color: #e53e3e; /* Warm Radiant Crimson */
-  --accent-hover: #fc8181;
-  --accent-light: rgba(229, 62, 62, 0.15);
+  --accent-color: #4a90e2; /* Bocconi Sapphire Blue */
+  --accent-hover: #6ba4e8;
+  --accent-light: rgba(74, 144, 226, 0.15);
   --border-color: #36302a;
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
-  --shadow-md: 0 8px 24px rgba(229, 62, 62, 0.2);
-  --shadow-lg: 0 12px 32px rgba(229, 62, 62, 0.3);
+  --shadow-md: 0 8px 24px rgba(74, 144, 226, 0.2);
+  --shadow-lg: 0 12px 32px rgba(74, 144, 226, 0.3);
   --glass-bg: rgba(20, 18, 16, 0.92);
-  --glass-border: rgba(229, 62, 62, 0.25);
+  --glass-border: rgba(74, 144, 226, 0.25);
   --dot-color: #2a2520;
 }
 

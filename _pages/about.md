@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome!
 
-I am a fifth-year Ph.D. student in Economics at **Bocconi University** in Milan.
+I am a sixth-year Ph.D. student in Economics at **Bocconi University** in Milan.
 
 ### **I will be on the 2026/2027 academic job market.**
 
@@ -17,7 +17,7 @@ My research focuses on how workers sort across jobs and the consequences for hum
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
 
-In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During the Spring 2025 term, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
+In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During Spring 2025, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
 
 **Contact**: [piero.dedominicis (at) unibocconi.it](mailto:piero.dedominicis@unibocconi.it)
 <br>
