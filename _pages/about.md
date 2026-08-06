@@ -19,10 +19,6 @@ My research focuses on how workers sort across jobs and the consequences for hum
 
 In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During Spring 2025, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
 
-**Contact**: [piero.dedominicis (at) unibocconi.it](mailto:piero.dedominicis@unibocconi.it)
-<br>
-X: [@peppecon](https://twitter.com/peppecon) | [Google Scholar]({{ site.author.googlescholar }}) | [GitHub](https://github.com/peppecon)
-
 ---
 
 ## Working Papers

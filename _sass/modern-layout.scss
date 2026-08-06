@@ -99,52 +99,121 @@ html.modern-layout::after {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-/* Global Container */
-.modern-main {
-  max-width: 1800px;
-  /* Massive width for ultra-long horizontal lines */
+/* Layout Wrapper for Two-Column Structure */
+.layout-wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 80px;
+  max-width: 1350px;
   margin: 0 auto;
-  padding: 40px 100px 100px;
-  /* Reduced top padding to shift content up */
+  padding: 80px 40px;
+  align-items: start;
 }
 
-/* Centered Header */
-.site-header {
-  text-align: center;
-  margin-bottom: 40px;
-  /* Reduced from 70px */
-  padding-top: 20px;
-  /* Reduced from 80px */
+/* Sidebar Styles */
+.sidebar {
+  position: relative;
 }
 
-.site-title {
+.sidebar-sticky {
+  position: sticky;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.site-title-small {
   font-family: var(--font-serif);
-  font-size: 4rem;
-  /* Even larger for impact */
+  font-size: 2.2rem;
   font-weight: 800;
   color: var(--accent-color);
-  /* Atom Blue */
   margin: 0;
-  letter-spacing: -0.03em;
-  text-shadow: 0 0 25px rgba(97, 175, 239, 0.4);
-  /* Blue Glow */
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
-/* Horizontal Rule style */
-.header-divider {
-  border: 0;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--accent-color), transparent);
-  margin: 20px 0 40px;
-  box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
-  opacity: 0.6;
+.site-title-small a {
+  color: inherit;
+  text-decoration: none;
 }
+
+.sidebar-image {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px var(--shadow-sm);
+  border: 1px solid var(--glass-border);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sidebar-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sidebar-image:hover {
+  transform: scale(1.02) rotate(1deg);
+  box-shadow: 0 12px 40px var(--shadow-md);
+  border-color: var(--accent-color);
+}
+
+.sidebar-contact {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  background: var(--glass-bg);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.sidebar-contact p {
+  margin: 0 0 12px;
+}
+
+.sidebar-contact p:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-contact a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sidebar-contact a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  font-size: 0.9rem;
+}
+
+/* Global Container */
+.modern-main {
+  width: 100%;
+}
+
+/* Header (Navigation) */
+.site-header {
+  margin-bottom: 40px;
+}
+
+/* Removed title and divider styles since we use a sidebar layout now */
 
 /* Pill Navigation */
 .pill-nav {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 12px;
   /* Increased from 12px */
   margin-bottom: 50px;
   /* Reduced from 80px */
@@ -208,53 +277,11 @@ html.modern-layout::after {
   justify-content: center;
 }
 
-/* Hero Section (Pic + Bio) */
-.hero-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 80px;
-  /* Reduced gap as requested */
-  margin-bottom: 80px;
-  /* Reduced margin as requested */
-  max-width: 1250px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-image-container {
-  flex-shrink: 0;
-}
-
-.hero-image {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 24px;
-  box-shadow: 0 0 45px var(--shadow-sm);
-  /* Dynamic Aura */
-  display: block;
-  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-  border: 1px solid var(--glass-border);
-}
-
-.hero-image:hover {
-  transform: scale(1.02) rotate(1deg);
-  box-shadow: 0 0 65px var(--shadow-md);
-  /* Dynamic Intense Glow */
-  border-color: var(--accent-color);
-}
-
-.hero-bio {
-  flex-grow: 1;
-  font-size: 1.05rem;
-  color: var(--text-secondary);
-}
+/* Removed old hero section styles */
 
 /* Section Headings */
 .content-section {
-  max-width: 1150px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .content-section h2 {
@@ -377,47 +404,25 @@ html.modern-layout::after {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .modern-main {
-    padding: 20px 20px 60px;
+@media (max-width: 900px) {
+  .layout-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 30px 20px;
+  }
+
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    align-items: center;
   }
 
   .site-header {
-    margin-bottom: 30px;
-    padding-top: 20px;
-  }
-
-  .site-title {
-    font-size: 2.2rem;
-    text-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+    margin-bottom: 20px;
   }
 
   .pill-nav {
-    gap: 12px;
-    margin-bottom: 30px;
-  }
-
-  .pill-nav-link {
-    padding: 8px 16px;
-    font-size: 0.85rem;
-  }
-
-  .hero-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 30px;
-  }
-
-  .hero-image {
-    width: 240px;
-    height: 240px;
-    box-shadow: 0 0 20px rgba(34, 211, 238, 0.2);
-  }
-
-  .content-section h2 {
-    font-size: 1.25rem;
-    margin-top: 50px;
+    justify-content: center;
   }
 
   .abstract-content {
