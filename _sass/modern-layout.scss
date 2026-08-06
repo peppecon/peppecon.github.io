@@ -103,9 +103,9 @@ html.modern-layout::after {
 /* Layout Wrapper for Two-Column Structure */
 .layout-wrapper {
   display: grid;
-  grid-template-columns: 360px 1fr;
+  grid-template-columns: 420px 1fr;
   gap: 80px;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 80px 40px;
   align-items: start;
@@ -142,7 +142,7 @@ html.modern-layout::after {
 
 .sidebar-image {
   width: 100%;
-  max-width: 320px;
+  max-width: 380px;
   margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
@@ -155,12 +155,19 @@ html.modern-layout::after {
   width: 100%;
   height: auto;
   display: block;
+  transform: scale(1.15); /* Permanent zoom */
+  transform-origin: center top;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .sidebar-image:hover {
-  transform: scale(1.02) rotate(1deg);
+  transform: scale(1.02);
   box-shadow: 0 12px 40px var(--shadow-md);
   border-color: var(--accent-color);
+}
+
+.sidebar-image:hover img {
+  transform: scale(1.18); /* Additional hover zoom */
 }
 
 .sidebar-contact {
