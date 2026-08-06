@@ -119,9 +119,13 @@ html.modern-layout::after {
 .sidebar-sticky {
   position: sticky;
   top: 80px;
+}
+
+.sidebar-profile {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 28px;
+  align-items: center;
 }
 
 .site-title-small {
