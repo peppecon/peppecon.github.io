@@ -35,7 +35,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
   <div class="abstract-presentation-info">
     <strong>🏆 Best Young Scholar Paper Award (First Prize) — CEF 2026</strong><br>
     <strong>Presented at (*upcoming):</strong> ASSA 2027 Annual Meeting*, TRAILS Conference*,
-    EALE 2026*, EEA-ESEM 2026, NBER SI 2026, CEF 2026,
+    EALE 2026*, EEA-ESEM 2026, NBER SI 2026 (Macro Perspectives), CEF 2026,
     XXIX Workshop on Dynamic Macroeconomics, NASMES 2026, T2M 2026,
     Spring Midwest Macroeconomics Meeting 2026,
     2nd Boston College PhD Conference,
