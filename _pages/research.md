@@ -18,7 +18,7 @@ author_profile: false
 
   <div class="abstract-presentation-info">
     <strong>🏆 Best Young Scholar Paper Award (First Prize) — CEF 2026</strong><br>
-    <strong>Presented at:</strong> ASSA 2027 Annual Meeting*, TRAILS Conference*,
+    <strong>Presented at (*upcoming):</strong> ASSA 2027 Annual Meeting*, TRAILS Conference*,
     EALE 2026*, EEA-ESEM 2026, NBER SI 2026, CEF 2026,
     XXIX Workshop on Dynamic Macroeconomics, NASMES 2026, T2M 2026,
     Spring Midwest Macroeconomics Meeting 2026,
@@ -26,7 +26,7 @@ author_profile: false
     Stanford Labor/Public Workshop 2026, Stanford Macro Lunch 2026,
     BeNA Labor Economics Workshop 2025, CEPR Paris Symposium 2025,
     EWMES 2025, 1st Aarhus Workshop on Labor Markets,
-    Milan PhD Workshop 2025, Princeton Macro Lunch 2025 (*upcoming)
+    Milan PhD Workshop 2025, Princeton Macro Lunch 2025 
   </div>
 
   <div class="abstract-content">
