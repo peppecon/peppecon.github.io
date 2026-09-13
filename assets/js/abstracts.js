@@ -5,16 +5,34 @@
             const newHeader = header.cloneNode(true);
             header.parentNode.replaceChild(newHeader, header);
 
-            newHeader.addEventListener('click', function () {
-                const content = this.nextElementSibling;
+            // Expose the row as a real control: focusable, and operable
+            // with Enter/Space like a button.
+            newHeader.setAttribute('role', 'button');
+            newHeader.setAttribute('tabindex', '0');
+            newHeader.setAttribute('aria-expanded', 'false');
+
+            const toggle = function (header) {
+                const content = header.nextElementSibling;
                 const isExpanded = content.style.display === 'block';
 
                 content.style.display = isExpanded ? 'none' : 'block';
-                this.classList.toggle('expanded');
+                header.classList.toggle('expanded');
+                header.setAttribute('aria-expanded', String(!isExpanded));
 
                 // Re-typeset math if MathJax is loaded
                 if (!isExpanded && window.MathJax && window.MathJax.typesetPromise) {
                     window.MathJax.typesetPromise([content]);
+                }
+            };
+
+            newHeader.addEventListener('click', function () {
+                toggle(this);
+            });
+
+            newHeader.addEventListener('keydown', function (event) {
+                if (event.key === 'Enter' || event.key === ' ' || event.key === 'Spacebar') {
+                    event.preventDefault();
+                    toggle(this);
                 }
             });
         });

@@ -11,17 +11,17 @@ html.modern-layout {
   --accent-color: #003366; /* Bocconi Dark Blue */
   --accent-hover: #001f3f;
   --accent-light: rgba(0, 51, 102, 0.08);
+  --on-accent: #ffffff;
   --border-color: #e7e2d7;
   --shadow-sm: 0 4px 12px rgba(44, 39, 36, 0.06);
   --shadow-md: 0 8px 24px rgba(0, 51, 102, 0.12);
   --shadow-lg: 0 12px 32px rgba(0, 51, 102, 0.18);
   --glass-bg: rgba(253, 251, 247, 0.92);
   --glass-border: rgba(0, 51, 102, 0.15);
-  --dot-color: #e7e2d7;
 
   /* Typography Tokens */
-  --font-serif: 'Newsreader', 'Merriweather', 'Georgia', serif;
-  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Newsreader', 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-display: 'Newsreader', serif;
   --glass-blur: blur(14px);
 
@@ -37,33 +37,18 @@ html.modern-layout[data-site-view="classic"] {
   --text-primary: #f3efe6;
   --text-secondary: #d6cfc4;
   --text-muted: #a1988a;
-  --accent-color: #4a90e2; /* Bocconi Sapphire Blue */
-  --accent-hover: #6ba4e8;
-  --accent-light: rgba(74, 144, 226, 0.15);
+  --accent-color: #93b4d8; /* Bocconi navy, lightened for dark backgrounds */
+  --accent-hover: #b0c9e5;
+  --accent-light: rgba(147, 180, 216, 0.15);
+  --on-accent: #141210;
   --border-color: #36302a;
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
-  --shadow-md: 0 8px 24px rgba(74, 144, 226, 0.2);
-  --shadow-lg: 0 12px 32px rgba(74, 144, 226, 0.3);
+  --shadow-md: 0 8px 24px rgba(147, 180, 216, 0.18);
+  --shadow-lg: 0 12px 32px rgba(147, 180, 216, 0.26);
   --glass-bg: rgba(20, 18, 16, 0.92);
-  --glass-border: rgba(74, 144, 226, 0.25);
-  --dot-color: #2a2520;
+  --glass-border: rgba(147, 180, 216, 0.25);
 }
 
-
-/* Background Pattern - Softer Graphite Dot Grid */
-html.modern-layout::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-image: radial-gradient(var(--dot-color) 1px, transparent 1px);
-  background-size: 30px 30px;
-  pointer-events: none;
-  transition: opacity 0.5s ease;
-}
 
 @keyframes fadeUp {
   from {
@@ -93,9 +78,8 @@ html.modern-layout::after {
   font-size: 1.125rem;
   color: var(--text-primary);
   background: var(--primary-bg);
-  line-height: 1.8;
-  letter-spacing: 0.01em;
-  /* Looser for serif readability */
+  line-height: 1.65;
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -103,7 +87,7 @@ html.modern-layout::after {
 /* Layout Wrapper for Two-Column Structure */
 .layout-wrapper {
   display: grid;
-  grid-template-columns: 420px 1fr;
+  grid-template-columns: 380px 1fr;
   gap: 80px;
   max-width: 1500px;
   margin: 0 auto;
@@ -124,15 +108,15 @@ html.modern-layout::after {
 .sidebar-profile {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 20px;
   align-items: center;
 }
 
 .site-title-small {
   font-family: var(--font-serif);
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: var(--accent-color);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
   margin: 0;
   text-align: center;
   line-height: 1.1;
@@ -176,19 +160,19 @@ html.modern-layout::after {
 
 .sidebar-contact {
   font-family: var(--font-sans);
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   background: var(--glass-bg);
-  padding: 20px;
+  padding: 16px 18px;
   border-radius: 12px;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 .sidebar-contact p {
-  margin: 0 0 12px;
+  margin: 0 0 8px;
 }
 
 .sidebar-contact p:last-child {
@@ -206,7 +190,7 @@ html.modern-layout::after {
 }
 
 .social-links {
-  font-size: 1rem;
+  font-size: 0.88rem;
 }
 
 /* Sidebar Section Navigation (single-page anchors) */
@@ -231,7 +215,7 @@ html.modern-layout::after {
   border: none;
   box-shadow: none;
   color: var(--text-secondary);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none !important;
   letter-spacing: 0.01em;
@@ -245,8 +229,8 @@ html.modern-layout::after {
 }
 
 .sidebar-nav .theme-btn {
-  margin-top: 6px;
-  font-size: 0.95rem;
+  margin-top: 4px;
+  font-size: 0.85rem;
   font-weight: 500;
   opacity: 0.8;
 }
@@ -336,7 +320,7 @@ html {
 .pill-nav-link:hover,
 .pill-nav-link.active {
   background: var(--accent-color);
-  color: white !important;
+  color: var(--on-accent) !important;
   /* White text on blue pill for both modes */
   border-color: var(--accent-color);
   transform: translateY(-2px);
@@ -359,6 +343,22 @@ html {
   width: 100%;
 }
 
+/* Keep running text at a comfortable reading measure. Wide blocks
+   (figures, tables, the collapsible panels) are deliberately exempt. */
+.content-section > p,
+.content-section > ul,
+.content-section > ol,
+.content-section > blockquote,
+.abstract-text {
+  max-width: 72ch;
+}
+
+/* The award / presentation lines are single-line labels, not running text,
+   so they use the full column width instead of the 72ch measure. */
+.abstract-presentation-info {
+  max-width: none;
+}
+
 .content-section h2 {
   font-family: var(--font-serif);
   font-size: 1.5rem;
@@ -369,13 +369,36 @@ html {
   letter-spacing: -0.01em;
   color: var(--accent-color);
   /* Blue Headings */
-  border-bottom: 2px solid var(--accent-color);
-  padding-bottom: 12px;
-  margin: 80px 0 40px;
-  text-shadow: 0 0 15px var(--shadow-md);
-  /* Dynamic Glow */
-  box-shadow: 0 4px 15px -12px var(--accent-color);
-  transition: color 0.5s ease, border-color 0.5s ease, text-shadow 0.5s ease;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+  margin: 48px 0 28px;
+  transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+/* --- 3. Subsection headings: a quiet sans kicker, clearly below the h2 --- */
+.content-section h3 {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 32px 0 14px;
+}
+
+.content-section h3 .link-secondary {
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--accent-color);
+}
+
+/* h3s inside the collapsible panels keep their original look */
+.abstract-content h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-primary);
 }
 
 /* Interest Tags (used in bio) */
@@ -394,13 +417,13 @@ html {
   padding: 6px 14px;
   border-radius: 9999px;
   /* Pill style */
-  border: 1px solid rgba(13, 148, 136, 0.1);
+  border: 1px solid var(--accent-light);
   transition: all 0.2s ease;
 }
 
 .interest-tag:hover {
   background: var(--accent-color);
-  color: white;
+  color: var(--on-accent);
   transform: translateY(-1px);
 }
 
@@ -418,26 +441,55 @@ html {
 
 .abstract-container:hover {
   border-color: var(--accent-color);
-  box-shadow: 0 0 25px rgba(97, 175, 239, 0.15);
-  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .abstract-header {
-  padding: 12px 20px;
+  padding: 14px 20px;
   cursor: pointer;
   font-weight: 700;
   display: flex;
   align-items: center;
   gap: 10px;
-  transition: background 0.2s;
+  transition: background 0.2s, color 0.2s;
 }
 
-.abstract-header:hover {
+.abstract-header:hover,
+.abstract-header:focus-visible {
   background: var(--tertiary-bg);
+  color: var(--accent-color);
+}
+
+.abstract-header:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: -2px;
+}
+
+/* "Show" / "Hide" cue so the row is visibly a control */
+.abstract-header::after {
+  content: 'Show';
+  margin-left: auto;
+  padding-left: 16px;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.abstract-header.expanded::after {
+  content: 'Hide';
+}
+
+.abstract-header:hover::after {
+  color: var(--accent-color);
 }
 
 .abstract-header .arrow {
   font-size: 0.8rem;
+  color: var(--accent-color);
   transition: transform 0.2s;
 }
 
@@ -450,6 +502,36 @@ html {
   padding: 20px 30px 40px 30px;
   color: var(--text-secondary);
   font-size: 1.1rem;
+}
+
+/* Paper links (Draft / SSRN / Slides) */
+.draft-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.draft-button a {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 9999px;
+  background: var(--primary-bg);
+  color: var(--accent-color);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.draft-button a:hover,
+.draft-button a:focus-visible {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--on-accent);
 }
 
 .abstract-figure {
@@ -468,9 +550,21 @@ html {
 }
 
 .abstract-presentation-info {
-  margin-top: 30px;
-  font-size: 0.95rem;
+  margin-top: 18px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.6;
   color: var(--text-muted);
+}
+
+.abstract-presentation-info a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.abstract-presentation-info a:hover {
+  color: var(--accent-color);
 }
 
 /* Hide Sidebar Content */

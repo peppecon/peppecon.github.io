@@ -53,8 +53,6 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 <strong><a href="/files/curriculum.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a></strong>
 
----
-
 ## Research {#research}
 
 ### Job Market Paper
@@ -78,9 +76,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
     <div class="draft-button">
       <a href="/files/jmp.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
-      &nbsp;&nbsp;|&nbsp;&nbsp;
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">SSRN</a>
-      &nbsp;&nbsp;|&nbsp;&nbsp;
       <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER Summer Institute Slides</a>
     </div>
 
@@ -89,8 +85,8 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 </div>
 
 <div class="abstract-presentation-info">
-  <strong>🏆 Best Young Scholar Paper Award (First Prize) — CEF 2026</strong><br>
-  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute - The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
+  <strong>🏆 <a href="https://comp-econ.com/cef-2026-student-paper/" target="_blank" rel="noopener noreferrer">Best Young Scholar Paper Award (First Prize) — CEF 2026</a></strong><br>
+  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute – The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
 </div>
 
 ### Work in Progress
@@ -99,18 +95,14 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 - "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
 
----
-
 ## Teaching {#teaching}
 
 *Bocconi University, Milan (Italy)*
 
-* Monetary Theory and Policy (30159, Bachelor) · Fall 2022 – Present
-* Economia - Modulo 2 (Macroeconomia) (30066, Bachelor) · Fall 2022 – Present
-* Financial Macroeconomics (30172, Bachelor) · Fall 2022 – Fall 2024
-* Econometrics (30462, Bachelor) · Fall 2022 – Fall 2024
-
----
+* Monetary Theory and Policy (30159, Bachelor) — Fall 2022 – Present
+* Economia – Modulo 2 (Macroeconomia) (30066, Bachelor) — Fall 2022 – Present
+* Financial Macroeconomics (30172, Bachelor) — Fall 2022 – Fall 2024
+* Econometrics (30462, Bachelor) — Fall 2022 – Fall 2024
 
 ## Resources {#resources}
 
