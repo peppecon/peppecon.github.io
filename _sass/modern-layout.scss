@@ -209,6 +209,49 @@ html.modern-layout::after {
   font-size: 1rem;
 }
 
+/* Sidebar Section Navigation (single-page anchors) */
+.sidebar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.sidebar-nav .pill-nav-link {
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.sidebar-nav .cv-nav-link {
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+/* Smooth anchor scrolling and offset so headings are not flush to the top */
+html {
+  scroll-behavior: smooth;
+}
+
+.content-section h2[id],
+.section-anchor {
+  scroll-margin-top: 40px;
+}
+
+.section-anchor {
+  display: block;
+  height: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* Global Container */
 .modern-main {
   width: 100%;
@@ -427,6 +470,15 @@ html.modern-layout::after {
     position: relative;
     top: 0;
     align-items: center;
+  }
+
+  .sidebar-nav {
+    max-width: none;
+  }
+
+  .content-section h2[id],
+  .section-anchor {
+    scroll-margin-top: 20px;
   }
 
   .site-header {
