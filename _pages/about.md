@@ -91,7 +91,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 ### Work in Progress
 
-- "The Experimentation Value of Occupations"
+- "The Experimentation Value of Occupations" *(Draft available soon)*
 
 - "Promoting Inequality: Internal Job Ladders and Wage Dynamics"
 
