@@ -29,27 +29,6 @@ html.modern-layout {
   transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
-/* Warm Editorial Dark Mode */
-html.modern-layout[data-site-view="classic"] {
-  --primary-bg: #141210;
-  --secondary-bg: #1d1a17;
-  --tertiary-bg: #27231f;
-  --text-primary: #f3efe6;
-  --text-secondary: #d6cfc4;
-  --text-muted: #a1988a;
-  --accent-color: #93b4d8; /* Bocconi navy, lightened for dark backgrounds */
-  --accent-hover: #b0c9e5;
-  --accent-light: rgba(147, 180, 216, 0.15);
-  --on-accent: #141210;
-  --border-color: #36302a;
-  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
-  --shadow-md: 0 8px 24px rgba(147, 180, 216, 0.18);
-  --shadow-lg: 0 12px 32px rgba(147, 180, 216, 0.26);
-  --glass-bg: rgba(20, 18, 16, 0.92);
-  --glass-border: rgba(147, 180, 216, 0.25);
-}
-
-
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -228,12 +207,6 @@ html.modern-layout[data-site-view="classic"] {
   color: var(--accent-color);
 }
 
-.sidebar-nav .theme-btn {
-  margin-top: 4px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  opacity: 0.8;
-}
 
 /* Smooth anchor scrolling and offset so headings are not flush to the top */
 html {
@@ -327,14 +300,6 @@ html {
   box-shadow: 0 8px 20px var(--shadow-md);
 }
 
-.theme-btn {
-  cursor: pointer;
-  border: 1px solid var(--glass-border);
-  background: var(--glass-bg);
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-}
 
 /* Removed old hero section styles */
 
@@ -427,6 +392,20 @@ html {
   transform: translateY(-1px);
 }
 
+/* Job-market line: the one thing a visiting committee must not miss */
+.job-market-note {
+  margin: 22px 0;
+  padding: 14px 20px;
+  border-left: 3px solid var(--accent-color);
+  border-radius: 0 8px 8px 0;
+  background: var(--accent-light);
+  color: var(--accent-color);
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 /* Abstract Container */
 .abstract-container {
   margin: 30px 0;
@@ -481,6 +460,15 @@ html {
 
 .abstract-header.expanded::after {
   content: 'Hide';
+}
+
+/* Papers say what is behind the row */
+.is-paper .abstract-header::after {
+  content: 'Show Abstract';
+}
+
+.is-paper .abstract-header.expanded::after {
+  content: 'Hide Abstract';
 }
 
 .abstract-header:hover::after {
