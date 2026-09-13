@@ -41,7 +41,7 @@ redirect_from:
 
 Welcome!
 
-I am a sixth-year Ph.D. student in Economics at **Bocconi University** in Milan.
+I am a sixth-year Ph.D. student in Economics at **Bocconi University** in Milan, where my advisors are <a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a> and <a href="https://sites.google.com/site/tlebarbanchon/home" target="_blank" rel="noopener noreferrer">Thomas Le Barbanchon</a>.
 
 ### **I will be on the 2026/2027 academic job market.**
 
@@ -49,13 +49,15 @@ My research focuses on how workers sort across jobs and the consequences for hum
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
 
-In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During Spring 2025, I was a visiting researcher at Princeton University, hosted by Gianluca Violante.
+In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During Spring 2025, I was a Visiting Student Research Collaborator at Princeton University, hosted by Gianluca Violante.
+
+<strong><a href="/files/curriculum.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a></strong>
 
 ---
 
 ## Research {#research}
 
-### Working Papers
+### Job Market Paper
 
 <div class="abstract-container">
 
@@ -63,7 +65,6 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
     <span class="arrow">▶</span>
     <span>
       "The Micro and Macro Implications of Multidimensional Skill Uncertainty"
-      <strong>[Job Market Paper]</strong>
     </span>
   </div>
 
@@ -80,7 +81,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
       &nbsp;&nbsp;|&nbsp;&nbsp;
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">SSRN</a>
       &nbsp;&nbsp;|&nbsp;&nbsp;
-      <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER SI Slides</a>
+      <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER Summer Institute Slides</a>
     </div>
 
   </div>
@@ -89,7 +90,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 <div class="abstract-presentation-info">
   <strong>🏆 Best Young Scholar Paper Award (First Prize) — CEF 2026</strong><br>
-  <strong>Presented at (*upcoming):</strong> ASSA 2027 Annual Meeting*, TRAILS Conference*, EALE 2026*, EEA-ESEM 2026, <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER SI 2026 (Macro Perspectives)</a>, CEF 2026, XXIX Workshop on Dynamic Macroeconomics, NASMES 2026, T2M 2026, Spring Midwest Macroeconomics Meeting 2026, 2nd Boston College PhD Conference, Stanford Labor/Public Workshop 2026, Stanford Macro Lunch 2026, BeNA Labor Economics Workshop 2025, CEPR Paris Symposium 2025, EWMES 2025, 1st Aarhus Workshop on Labor Markets, Milan PhD Workshop 2025, Princeton Macro Lunch 2025
+  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute - The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
 </div>
 
 ### Work in Progress
@@ -111,7 +112,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 ---
 
-## Codes {#codes}
+## Resources {#resources}
 
 ### Computational Economics <a href="https://github.com/peppecon/Computational-Economics" target="_blank" class="link-secondary">(Link to GitHub Repository)</a>
 
@@ -200,5 +201,5 @@ Measurement of numerical precision as a function of the polynomial degree ($n$).
 - Python 3.x
 - NumPy, SciPy, Matplotlib
 
-  </div>
+</div>
 </div>

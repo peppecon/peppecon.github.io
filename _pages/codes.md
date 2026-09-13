@@ -1,4 +1,4 @@
 ---
 permalink: /codes/
-redirect_to: /#codes
+redirect_to: /#resources
 ---
