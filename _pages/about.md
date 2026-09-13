@@ -93,7 +93,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 - "The Experimentation Value of Occupations"
 
-- "Structural Change and the Flattening of the Within-Firm Occupational Job Ladder"
+- "Promoting Inequality: Internal Job Ladders and Wage Dynamics"
 
 ## Teaching {#teaching}
 
