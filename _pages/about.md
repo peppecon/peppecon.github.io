@@ -55,7 +55,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 <div class="abstract-presentation-info">
   <strong>🏆 Best Young Scholar Paper Award (First Prize) — CEF 2026</strong><br>
-  <strong>Presented at (*upcoming):</strong> ASSA 2027 Annual Meeting*, TRAILS Conference*, EALE 2026*, EEA-ESEM 2026, NBER SI 2026 (Macro Perspectives), CEF 2026, XXIX Workshop on Dynamic Macroeconomics, NASMES 2026, T2M 2026, Spring Midwest Macroeconomics Meeting 2026, 2nd Boston College PhD Conference, Stanford Labor/Public Workshop 2026, Stanford Macro Lunch 2026, BeNA Labor Economics Workshop 2025, CEPR Paris Symposium 2025, EWMES 2025, 1st Aarhus Workshop on Labor Markets, Milan PhD Workshop 2025, Princeton Macro Lunch 2025
+  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute - The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
 </div>
 
 ## Work in Progress

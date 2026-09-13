@@ -5,30 +5,11 @@ permalink: /teaching/
 author_profile: false
 ---
 
-<style>
-  .teaching-dropdown {
-    margin-bottom: 30px;
-  }
-</style>
-
-## Teaching Assistant · Fall 2022 – Present
+## Teaching Assistant
 
 *Bocconi University, Milan (Italy)*
 
-<div class="abstract-container teaching-dropdown">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Monetary Theory and Policy (Bachelor)</span>
-  </div>
-  <div class="abstract-content">
-    <p>Teaching assistant for the course.</p>
-    <ul>
-      <li><a href="/files/teaching/TA1.pdf">TA1</a></li>
-      <li><a href="/files/teaching/TA2_newformat.pdf">TA2</a></li>
-    </ul>
-  </div>
-</div>
-
-* Financial Macroeconomics (Bachelor)
-* Econometrics (Bachelor)
-* Macroeconomics (Bachelor)
+* Monetary Theory and Policy (30159, Bachelor) · Fall 2022 – Present
+* Economia - Modulo 2 (Macroeconomia) (30066, Bachelor) · Fall 2022 – Present
+* Financial Macroeconomics (30172, Bachelor) · Fall 2022 – Fall 2024
+* Econometrics (30462, Bachelor) · Fall 2022 – Fall 2024
