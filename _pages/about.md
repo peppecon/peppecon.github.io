@@ -41,7 +41,7 @@ redirect_from:
 
 Welcome!
 
-I am a sixth-year Ph.D. student in Economics at **Bocconi University** in Milan, where my advisors are <a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a> and <a href="https://sites.google.com/site/tlebarbanchon/home" target="_blank" rel="noopener noreferrer">Thomas Le Barbanchon</a>.
+I am a sixth-year Ph.D. candidate in Economics at **Bocconi University** in Milan, where my advisors are <a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a> and <a href="https://sites.google.com/site/tlebarbanchon/home" target="_blank" rel="noopener noreferrer">Thomas Le Barbanchon</a>.
 
 <p class="job-market-note">I will be on the 2026/2027 academic job market.</p>
 
