@@ -89,11 +89,36 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
   <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute – The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
 </div>
 
+### Working Papers
+
+<div class="abstract-container is-paper">
+
+  <div class="abstract-header">
+    <span class="arrow">▶</span>
+    <span>
+      "The Experimentation Value of Occupations"
+    </span>
+  </div>
+
+  <div class="abstract-content">
+
+    <div class="abstract-expanded">
+      <div class="abstract-text">
+        Early in the career, workers are uncertain about their abilities and may experiment different jobs to find where they are most productive. In this paper I estimate a dynamic structural model of occupational choice and learning on NLSY79 panel data to quantify the experimentation value of occupations over the lifecycle. This experimentation value arises when workers choose occupations in which they do not know their ability as this may resolve in a good match. I show this experimentation motive acts as a compensating differential particularly early in the career, drives the mobility of young workers and declines quickly over the lifecycle. Allowing for unobserved heterogeneity, I find that the willingness to pay for learning is heterogeneous across worker types and higher for high-ability workers.
+      </div>
+    </div>
+
+    <div class="draft-button">
+      <a href="/files/experimentation_value.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
+    </div>
+
+  </div>
+
+</div>
+
 ### Work in Progress
 
-- "The Experimentation Value of Occupations" *(Draft available soon)*
-
-- "Promoting Inequality: Internal Job Ladders and Wage Dynamics"
+- "Promoting Inequality: Internal Job Ladders and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>)
 
 ## Teaching {#teaching}
 
