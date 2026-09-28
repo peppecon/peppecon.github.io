@@ -362,6 +362,18 @@ html {
   margin: 32px 0 14px;
 }
 
+/* Research categories stand out more than ordinary subsections */
+.content-section h3#job-market-paper,
+.content-section h3#working-papers,
+.content-section h3#work-in-progress {
+  font-size: 1.05rem;
+  letter-spacing: 0.1em;
+  color: var(--accent-color);
+  padding: 6px 0 6px 14px;
+  border-left: 4px solid var(--accent-color);
+  margin: 44px 0 18px;
+}
+
 .content-section h3 .link-secondary {
   text-transform: none;
   letter-spacing: 0;
@@ -406,10 +418,6 @@ html {
 /* Job-market line: the one thing a visiting committee must not miss */
 .job-market-note {
   margin: 22px 0;
-  padding: 14px 20px;
-  border-left: 3px solid var(--accent-color);
-  border-radius: 0 8px 8px 0;
-  background: var(--accent-light);
   color: var(--accent-color);
   font-family: var(--font-serif);
   font-size: 1.2rem;
