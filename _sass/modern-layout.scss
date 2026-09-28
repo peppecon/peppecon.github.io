@@ -243,6 +243,7 @@ html {
 /* Global Container */
 .modern-main {
   width: 100%;
+  max-width: 820px;
 }
 
 /* Header (Navigation) */
@@ -319,20 +320,16 @@ html {
   width: 100%;
 }
 
-/* Keep running text at a comfortable reading measure. Wide blocks
-   (figures, tables, the collapsible panels) are deliberately exempt. */
+/* One fixed column: every block (text, headings, paper panels) shares the
+   same left and right edge, and running text is justified to fill it. */
 .content-section > p,
 .content-section > ul,
 .content-section > ol,
 .content-section > blockquote,
 .abstract-text {
-  max-width: 72ch;
-}
-
-/* The award / presentation lines are single-line labels, not running text,
-   so they use the full column width instead of the 72ch measure. */
-.abstract-presentation-info {
-  max-width: none;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .content-section h2 {
