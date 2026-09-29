@@ -45,7 +45,9 @@ I am a sixth-year Ph.D. candidate in Economics at **Bocconi University** in Mila
 
 <p class="job-market-note">I will be on the 2026/2027 academic job market.</p>
 
-My research focuses on how workers sort across jobs and the consequences for human capital and wages. I am particularly interested in how uncertainty shapes the behaviour of firms and workers and how those responses affect the aggregate economy.
+My research combines rich micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes. In particular, I study how imperfect information about their own skills shapes workers' careers, from occupational sorting and skill mismatch to experimentation across occupations early in the career, and what this implies for human capital, wage inequality and aggregate output. I am also interested in how firms structure their internal labor markets and what this implies for career progression and wage growth, as differences in the premium firms pay for promotions drive much of the dispersion in wage growth across firms.
+
+Going forward, I want to study how what workers do on the job, where and with whom shapes their human capital, and how Artificial Intelligence affects these processes and the organization of firms; why firms differ in the internal careers they offer, and what this implies for wage inequality over the life cycle; and how firms' beliefs and expectations drive firm dynamics and business cycle fluctuations.
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
 
