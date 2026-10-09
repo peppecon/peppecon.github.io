@@ -118,7 +118,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 ### Work in Progress
 
-- "Promoting Inequality: Internal Job Ladders and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>)
+- "Firms' Internal Labor Markets and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>)
 
 ## Teaching {#teaching}
 
