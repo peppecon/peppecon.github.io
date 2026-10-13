@@ -116,30 +116,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 </div>
 
-<div class="abstract-container is-paper">
-
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>
-      "Firms' Internal Labor Markets and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">Sadhika Bagga</a>)
-    </span>
-  </div>
-
-  <div class="abstract-content">
-
-    <div class="abstract-expanded">
-      <div class="abstract-text">
-        We study job mobility within firms and its consequences for wage dynamics. Using Portuguese matched employer-employee data, we find that upward job mobility and promotions are more likely in large and high-paying firms, and that the wage-growth premium that comes with them is larger. Workers who are not promoted see their wages grow at the same rate in every type of firm, while the wage growth of promoted workers is up to 6 percentage points larger in large or high-paying firms than in small or low-paying ones. The wage-growth advantage of large and high-paying firms is not a premium for working there, but a premium for moving up in the firm’s internal labor market.
-      </div>
-    </div>
-
-    <div class="draft-button">
-      <a href="/files/internal_labor_markets.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
-    </div>
-
-  </div>
-
-</div>
+- "Firms' Internal Labor Markets and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>) — <a href="/files/internal_labor_markets.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
 
 ## Teaching {#teaching}
 
