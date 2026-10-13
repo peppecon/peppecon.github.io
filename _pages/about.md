@@ -116,7 +116,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 </div>
 
-- "Firms' Internal Labor Markets and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>) — <a href="/files/internal_labor_markets.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
+- "Firms' Internal Labor Markets and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>)
 
 ## Teaching {#teaching}
 
