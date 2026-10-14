@@ -157,3 +157,10 @@ Calibrated to standard quarterly values ($\beta = 0.99$, $\alpha = 0.33$, $\delt
 
 </div>
 </div>
+
+### Replications <a href="https://github.com/peppecon/Replications" target="_blank" class="link-secondary">(Link to GitHub Repository)</a>
+
+* Bigio, S. and J. La'O (2020). "Distortions in Production Networks." *Quarterly Journal of Economics*. <a href="https://github.com/peppecon/Replications/tree/main/BigioLaO_QJE2020" target="_blank" class="link-secondary">(Code)</a>
+* Buera, F. J. and Y. Shin (2013). "Financial Frictions and the Persistence of History: A Quantitative Exploration." *Journal of Political Economy*. <a href="https://github.com/peppecon/Replications/tree/main/BueraShin_JPE2013" target="_blank" class="link-secondary">(Code)</a>
+* Blanchard, O. J., J.-P. L'Huillier and G. Lorenzoni (2013). "News, Noise, and Fluctuations: An Empirical Exploration." *American Economic Review*. <a href="https://github.com/peppecon/Replications/tree/main/BlanchardLHuillerLorenzoni_AER2013" target="_blank" class="link-secondary">(Code)</a>
+* Bajari, P., C. L. Benkard and J. Levin (2007). "Estimating Dynamic Models of Imperfect Competition." *Econometrica*. <a href="https://github.com/peppecon/Replications/tree/main/BajariBenkardLevin_ECTA2007" target="_blank" class="link-secondary">(Code)</a>
