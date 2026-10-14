@@ -163,63 +163,15 @@ Calibrated to standard quarterly values ($\beta = 0.99$, $\alpha = 0.33$, $\delt
 <div class="abstract-container">
   <div class="abstract-header">
     <span class="arrow">▶</span>
-    <span>Bigio and La'O (2020), "Distortions in Production Networks," <em>QJE</em></span>
-    <a href="https://github.com/peppecon/Replications/tree/main/BigioLaO_QJE2020" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
+    <span>Replicated Papers</span>
+    <a href="https://github.com/peppecon/Replications" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
   </div>
   <div class="abstract-content" markdown="1">
 
-Python replication of the quantitative exercise. The U.S. input-output network is calibrated to the 2007 BEA tables. Sectoral credit spreads (the Gilchrist-Zakrajšek excess bond premia) enter as financial distortions during the 2008-09 crisis.
-
-The network economy is compared with a horizontal economy without input-output linkages. The network amplifies the fall in the labor wedge by a factor of 1.7 with decreasing returns and 2.1 with constant returns. The derivations and results are in the <a href="https://github.com/peppecon/Replications/blob/main/BigioLaO_QJE2020/Replication_BigioLaOQJE2020.pdf" target="_blank" rel="noopener noreferrer">replication notes</a>.
-
-</div>
-</div>
-
-<div class="abstract-container">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Buera and Shin (2013), "Financial Frictions and the Persistence of History," <em>JPE</em></span>
-    <a href="https://github.com/peppecon/Replications/tree/main/BueraShin_JPE2013" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
-  </div>
-  <div class="abstract-content" markdown="1">
-
-Python replication of the model of entrepreneurship with collateral constraints and idiosyncratic distortions. A reform removes the distortions, and the economy transitions to the new steady state. Stationary equilibria and transitions are solved with value function iteration (with Howard acceleration) and with Chebyshev collocation.
-
-![Aggregate dynamics](https://raw.githubusercontent.com/peppecon/Replications/main/BueraShin_JPE2013/outputs/fig_aggregate_dynamics_I.png)
-
-With financial frictions ($\lambda = 1.35$), capital takes about 10.5 years to cover half the distance to the new steady state. Without them ($\lambda = \infty$), it takes about 5.5 years. Algorithms, figures and code are in the <a href="https://github.com/peppecon/Replications/tree/main/BueraShin_JPE2013" target="_blank" rel="noopener noreferrer">repository</a>.
-
-</div>
-</div>
-
-<div class="abstract-container">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Blanchard, L'Huillier and Lorenzoni (2013), "News, Noise, and Fluctuations," <em>AER</em></span>
-    <a href="https://github.com/peppecon/Replications/tree/main/BlanchardLHuillerLorenzoni_AER2013" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
-  </div>
-  <div class="abstract-content" markdown="1">
-
-Python replication of most figures in the first two sections of the paper. Consumers receive noisy signals about permanent productivity and solve a signal-extraction problem. The structural VAR is identified with long-run restrictions and estimated as a VECM. The model is then estimated by maximum likelihood, and the Kalman smoother recovers the unobserved states.
-
-![Smoothed states](https://raw.githubusercontent.com/peppecon/Replications/main/BlanchardLHuillerLorenzoni_AER2013/Estimation-Simulation-Figure3-4-Table-2-3/Figure3.png)
-
-The maximum likelihood and Kalman smoother parts were written independently of the original code. The derivations are in the <a href="https://github.com/peppecon/Replications/blob/main/BlanchardLHuillerLorenzoni_AER2013/replication_file_BLL2013.pdf" target="_blank" rel="noopener noreferrer">replication notes</a>.
-
-</div>
-</div>
-
-<div class="abstract-container">
-  <div class="abstract-header">
-    <span class="arrow">▶</span>
-    <span>Bajari, Benkard and Levin (2007), "Estimating Dynamic Models of Imperfect Competition," <em>Econometrica</em></span>
-    <a href="https://github.com/peppecon/Replications/tree/main/BajariBenkardLevin_ECTA2007" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
-  </div>
-  <div class="abstract-content" markdown="1">
-
-Python Monte Carlo of the two-step estimator on a Rust-style engine replacement problem. Data are simulated from the dynamic discrete choice model. The first stage estimates the policy function. The second stage forward-simulates values under the estimated and perturbed policies and recovers the replacement and maintenance costs.
-
-The estimates are close to the true parameters. The backward-recursion derivation is in the <a href="https://github.com/peppecon/Replications/blob/main/BajariBenkardLevin_ECTA2007/replication_file.pdf" target="_blank" rel="noopener noreferrer">notes</a>.
+* Bigio, S. and J. La'O (2020). "Distortions in Production Networks." *Quarterly Journal of Economics*. <a href="https://github.com/peppecon/Replications/tree/main/BigioLaO_QJE2020" target="_blank" class="link-secondary">(Code)</a>
+* Buera, F. J. and Y. Shin (2013). "Financial Frictions and the Persistence of History: A Quantitative Exploration." *Journal of Political Economy*. <a href="https://github.com/peppecon/Replications/tree/main/BueraShin_JPE2013" target="_blank" class="link-secondary">(Code)</a>
+* Blanchard, O. J., J.-P. L'Huillier and G. Lorenzoni (2013). "News, Noise, and Fluctuations: An Empirical Exploration." *American Economic Review*. <a href="https://github.com/peppecon/Replications/tree/main/BlanchardLHuillerLorenzoni_AER2013" target="_blank" class="link-secondary">(Code)</a>
+* Bajari, P., C. L. Benkard and J. Levin (2007). "Estimating Dynamic Models of Imperfect Competition." *Econometrica*. <a href="https://github.com/peppecon/Replications/tree/main/BajariBenkardLevin_ECTA2007" target="_blank" class="link-secondary">(Code)</a>
 
 </div>
 </div>
