@@ -163,7 +163,7 @@ Calibrated to standard quarterly values ($\beta = 0.99$, $\alpha = 0.33$, $\delt
 <div class="abstract-container">
   <div class="abstract-header">
     <span class="arrow">▶</span>
-    <span>Replicated Papers</span>
+    <span>Replications</span>
     <a href="https://github.com/peppecon/Replications" target="_blank" class="link-secondary" onclick="event.stopPropagation();">(Link to GitHub Repository)</a>
   </div>
   <div class="abstract-content" markdown="1">
