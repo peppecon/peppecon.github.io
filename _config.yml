@@ -47,7 +47,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=jM1Udd4AAAAJ&hl=it"
+  googlescholar    : "https://scholar.google.com/citations?user=jM1Udd4AAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # http://orcid.org/XXXX-XXXX-XXXX-XXXX
   semantic         : # URL
@@ -145,7 +145,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "p_dedominicis"
 facebook:
   username               :
   app_id                 :

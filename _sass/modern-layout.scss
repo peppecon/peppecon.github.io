@@ -188,7 +188,7 @@ html.modern-layout {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 3px;
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
@@ -200,7 +200,8 @@ html.modern-layout {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 2px 0;
+  padding: 0;
+  line-height: 1.35;
   background: none;
   border: none;
   box-shadow: none;
@@ -318,6 +319,14 @@ html {
 /* Section Headings */
 .content-section {
   width: 100%;
+}
+
+.content-section a {
+  color: var(--accent-color);
+}
+
+.content-section a:hover {
+  color: var(--accent-hover);
 }
 
 /* One fixed column: every block (text, headings, paper panels) shares the
@@ -471,14 +480,43 @@ html {
   min-width: 0;
 }
 
-.paper-summary {
+.abstract-header .paper-summary {
   order: 1;
   flex-basis: 100%;
+}
+
+.paper-summary {
   font-size: 1rem;
   font-style: italic;
   font-weight: 400;
   line-height: 1.5;
   color: var(--text-secondary);
+}
+
+/* Paper with no abstract to open: same box, no toggle */
+.paper-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 20px 10px;
+  font-weight: 700;
+}
+
+.paper-note {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* Paper links stay visible below the row, without opening the box */
+.is-paper .abstract-header {
+  padding-bottom: 10px;
+}
+
+.is-paper > .draft-button {
+  margin: 0;
+  padding: 0 20px 14px;
 }
 
 /* "Show" / "Hide" cue so the row is visibly a control */
@@ -597,6 +635,19 @@ html {
   display: none !important;
 }
 
+/* References */
+.references-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px 32px;
+}
+
+.reference {
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .layout-wrapper {
@@ -635,5 +686,29 @@ html {
 
   .cv-pdf-container {
     height: 700px !important;
+  }
+}
+
+/* Phones: justified text leaves wide gaps, and the cue squeezes long titles */
+@media (max-width: 600px) {
+  .content-section > p,
+  .content-section > ul,
+  .content-section > ol,
+  .content-section > blockquote,
+  .abstract-text {
+    text-align: left;
+    hyphens: manual;
+    -webkit-hyphens: manual;
+  }
+
+  .is-paper .abstract-header::after {
+    order: 2;
+    flex-basis: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .references-grid {
+    grid-template-columns: 1fr;
   }
 }

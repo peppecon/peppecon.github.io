@@ -12,7 +12,10 @@
             newHeader.setAttribute('aria-expanded', 'false');
 
             const toggle = function (header) {
-                const content = header.nextElementSibling;
+                let content = header.nextElementSibling;
+                while (content && !content.classList.contains('abstract-content')) {
+                    content = content.nextElementSibling;
+                }
                 const isExpanded = content.style.display === 'block';
 
                 content.style.display = isExpanded ? 'none' : 'block';

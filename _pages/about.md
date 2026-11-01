@@ -2,6 +2,9 @@
 permalink: /
 layout: default
 author_profile: false
+excerpt: "PhD candidate in Economics at Bocconi University, on the 2026/2027 academic job market. I combine rich micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes."
+header:
+  image: "profile_pic.jpg"
 redirect_from:
   - /about/
   - /about.html
@@ -39,15 +42,13 @@ redirect_from:
 
 <span id="about" class="section-anchor"></span>
 
-Welcome!
-
 I am a sixth-year Ph.D. candidate in Economics at **Bocconi University** in Milan, where my advisors are <a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a>, <a href="https://sites.google.com/site/tlebarbanchon/home" target="_blank" rel="noopener noreferrer">Thomas Le Barbanchon</a> and <a href="https://sites.google.com/site/jeromeadda16/home" target="_blank" rel="noopener noreferrer">Jérôme Adda</a>.
 
 <p class="job-market-note">I will be on the 2026/2027 academic job market.</p>
 
-My research combines rich micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes. In my Job Market Paper, I study how imperfect information about their own skills shapes workers' occupational sorting and skill mismatch, and what this implies for human capital, wage inequality and aggregate output. I also study how workers experiment across occupations early in their careers to learn about their comparative advantage. Finally, I am interested in how firms structure their internal labor markets and what this implies for career progression and wage growth.
-
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
+
+My research combines rich micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes. I focus on how workers learn about their skills and sort across occupations, and on how firms' internal labor markets shape career progression and wage growth.
 
 In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by Luigi Bocola. During Spring 2025, I was a Visiting Student Research Collaborator at Princeton University, hosted by Gianluca Violante.
 
@@ -62,9 +63,15 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
   <div class="abstract-header">
     <span class="arrow">▶</span>
     <span>
-      "The Micro and Macro Implications of Multidimensional Skill Uncertainty"
+      “The Micro and Macro Implications of Multidimensional Skill Uncertainty”
     </span>
-    <span class="paper-summary">I develop and estimate a dynamic structural model to study how imperfect information about multidimensional skills shapes occupational mobility and wages over the career, and the distribution of gains and losses from task-biased technological change.</span>
+    <span class="paper-summary">I study how imperfect information about skills shapes workers' careers and who gains and loses from task-biased technological change.</span>
+  </div>
+
+  <div class="draft-button">
+    <a href="/files/jmp.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">SSRN</a>
+    <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER Summer Institute Slides</a>
   </div>
 
   <div class="abstract-content">
@@ -75,19 +82,14 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
       </div>
     </div>
 
-    <div class="draft-button">
-      <a href="/files/jmp.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315959" target="_blank" rel="noopener noreferrer">SSRN</a>
-      <a href="/files/DeDominicisPiero_NBERSI2026.pdf" target="_blank" rel="noopener noreferrer">NBER Summer Institute Slides</a>
-    </div>
-
   </div>
 
 </div>
 
 <div class="abstract-presentation-info">
   <strong>🏆 <a href="https://comp-econ.com/cef-2026-student-paper/" target="_blank" rel="noopener noreferrer">Best Young Scholar Paper Award (First Prize) — CEF 2026</a></strong><br>
-  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute – The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
+  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute – The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong><br>
+  <strong>To be presented at the 2027 ASSA Annual Meeting</strong>
 </div>
 
 ### Working Papers
@@ -97,9 +99,13 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
   <div class="abstract-header">
     <span class="arrow">▶</span>
     <span>
-      "The Experimentation Value of Occupations"
+      “The Experimentation Value of Occupations”
     </span>
     <span class="paper-summary">I use a dynamic structural model to quantify the experimentation value of occupations over the lifecycle.</span>
+  </div>
+
+  <div class="draft-button">
+    <a href="/files/experimentation_value.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
   </div>
 
   <div class="abstract-content">
@@ -110,24 +116,64 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
       </div>
     </div>
 
-    <div class="draft-button">
-      <a href="/files/experimentation_value.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
-    </div>
-
   </div>
 
 </div>
 
-- "Firms' Internal Labor Markets and Wage Dynamics" (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>)<br><em>Draft available upon request</em>
+<div class="abstract-container is-paper">
+
+  <div class="paper-row">
+    <span>“Firms’ Internal Labor Markets and Wage Dynamics” (with <a href="https://sadhikabagga.github.io/" target="_blank" rel="noopener noreferrer">Sadhika Bagga</a>)</span>
+    <span class="paper-summary">We study job mobility within firms and its consequences for wage dynamics.</span>
+  </div>
+
+  <div class="draft-button">
+    <span class="paper-note">Draft available upon request</span>
+  </div>
+
+</div>
+
+### Work in Progress
+
+- "Really Uncertain Firm Dynamics" (with Yoshiya Yokomoto)
+
+- "Monetary Policy Transmission through Trade and Infrastructure Networks" (with Katerina Nikalexi)
+
+- "Behind the EU Miracle: Misallocation, Adoption and Convergence" (with <a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a>)
 
 ## Teaching {#teaching}
 
 *Bocconi University, Milan (Italy)*
 
-* Monetary Theory and Policy (30159, Bachelor) — Fall 2022 – Present
-* Economia – Modulo 2 (Macroeconomia) (30066, Bachelor) — Fall 2022 – Present
-* Financial Macroeconomics (30172, Bachelor) — Fall 2022 – Fall 2024
-* Econometrics (30462, Bachelor) — Fall 2022 – Fall 2024
+* Monetary Theory and Policy (30159, Undergraduate) — Fall 2022 – Present
+* Economia – Modulo 2 (Macroeconomia) (30066, Undergraduate) — Fall 2022 – Present
+* Financial Macroeconomics (30172, Undergraduate) — Fall 2022 – Fall 2024
+* Econometrics (30462, Undergraduate) — Fall 2022 – Fall 2024
+
+## References {#references}
+
+<div class="references-grid">
+  <div class="reference">
+    <strong><a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a></strong><br>
+    Department of Economics, Bocconi University<br>
+    <a href="mailto:basile.grassi@unibocconi.it">basile.grassi@unibocconi.it</a>
+  </div>
+  <div class="reference">
+    <strong><a href="https://sites.google.com/site/tlebarbanchon/home" target="_blank" rel="noopener noreferrer">Thomas Le Barbanchon</a></strong><br>
+    Department of Economics, Bocconi University<br>
+    <a href="mailto:thomas.lebarbanchon@unibocconi.it">thomas.lebarbanchon@unibocconi.it</a>
+  </div>
+  <div class="reference">
+    <strong><a href="https://sites.google.com/site/jeromeadda16/home" target="_blank" rel="noopener noreferrer">Jérôme Adda</a></strong><br>
+    Department of Economics, Bocconi University<br>
+    <a href="mailto:jerome.adda@unibocconi.it">jerome.adda@unibocconi.it</a>
+  </div>
+  <div class="reference">
+    <strong>Luigi Bocola</strong><br>
+    Department of Economics, Stanford University<br>
+    <a href="mailto:lbocola@stanford.edu">lbocola@stanford.edu</a>
+  </div>
+</div>
 
 ## Resources {#resources}
 
