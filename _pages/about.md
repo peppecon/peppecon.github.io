@@ -63,6 +63,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
     <span class="arrow">▶</span>
     <span>
       "The Micro and Macro Implications of Multidimensional Skill Uncertainty"
+      <span class="paper-summary">I study how imperfect information about multidimensional skills shapes occupational mobility and wages over the career, and how it affects who gains and loses from task-biased technological change.</span>
     </span>
   </div>
 
@@ -70,7 +71,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
     <div class="abstract-expanded">
       <div class="abstract-text">
-        I study how imperfect information about multidimensional skills shapes occupational mobility and wages over the career, and how it affects who gains and loses from task-biased technological change. I develop a general equilibrium dynamic Roy model of learning about these skills and estimate it using Portuguese administrative data. Learning about comparative advantage drives the reallocation of young and poorly matched workers. Removing information frictions raises aggregate output by 5.1%, while a feasible information treatment about comparative advantage recovers about 19% of the associated output loss. The task-biased technological change induced by large language model adoption raises aggregate output but generates uneven wage gains and losses. Skill uncertainty becomes more costly, particularly for workers with a cognitive comparative advantage. If they knew their skills, these workers would lose little from the shock. The same information treatment is particularly effective in reducing the costs they bear.
+        I develop and estimate a dynamic structural model to study how imperfect information about multidimensional skills shapes occupational mobility and wages over the career, and the distribution of gains and losses from task-biased technological change. Estimated on Portuguese administrative data, the model shows that learning about comparative advantage drives the reallocation of young and poorly matched workers. Removing information frictions raises aggregate output by 5.1%, while a feasible information treatment about comparative advantage recovers about 19% of the associated output loss. The task-biased technological change induced by large language model adoption raises aggregate output but generates uneven wage gains and losses. Skill uncertainty becomes more costly, particularly for workers with a cognitive comparative advantage. If they knew their skills, these workers would lose little from the shock. The same information treatment is particularly effective in reducing the costs they bear.
       </div>
     </div>
 
@@ -97,6 +98,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
     <span class="arrow">▶</span>
     <span>
       "The Experimentation Value of Occupations"
+      <span class="paper-summary">Early in the career, workers are uncertain about their abilities and may experiment with different jobs to find where they are most productive.</span>
     </span>
   </div>
 
