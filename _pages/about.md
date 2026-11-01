@@ -63,8 +63,8 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
     <span class="arrow">▶</span>
     <span>
       "The Micro and Macro Implications of Multidimensional Skill Uncertainty"
-      <span class="paper-summary">I develop and estimate a dynamic structural model to study how imperfect information about multidimensional skills shapes occupational mobility and wages over the career, and the distribution of gains and losses from task-biased technological change.</span>
     </span>
+    <span class="paper-summary">I develop and estimate a dynamic structural model to study how imperfect information about multidimensional skills shapes occupational mobility and wages over the career, and the distribution of gains and losses from task-biased technological change.</span>
   </div>
 
   <div class="abstract-content">
@@ -98,8 +98,8 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
     <span class="arrow">▶</span>
     <span>
       "The Experimentation Value of Occupations"
-      <span class="paper-summary">I use a dynamic structural model to quantify the experimentation value of occupations over the lifecycle.</span>
     </span>
+    <span class="paper-summary">I use a dynamic structural model to quantify the experimentation value of occupations over the lifecycle.</span>
   </div>
 
   <div class="abstract-content">

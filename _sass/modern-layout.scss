@@ -460,10 +460,20 @@ html {
   outline-offset: -2px;
 }
 
-/* One-sentence summary, always visible under the paper title */
+/* One-sentence summary, always visible on its own row under the title row */
+.is-paper .abstract-header {
+  flex-wrap: wrap;
+  row-gap: 4px;
+}
+
+.is-paper .abstract-header > span:nth-child(2) {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .paper-summary {
-  display: block;
-  margin-top: 4px;
+  order: 1;
+  flex-basis: 100%;
   font-size: 1rem;
   font-style: italic;
   font-weight: 400;
