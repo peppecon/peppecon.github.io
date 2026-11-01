@@ -149,6 +149,7 @@ html.modern-layout {
 }
 
 .sidebar-contact {
+  width: 100%;
   font-family: var(--font-sans);
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -183,40 +184,53 @@ html.modern-layout {
   font-size: 0.88rem;
 }
 
-/* Sidebar Section Navigation (single-page anchors) */
+/* Sidebar Section Navigation (single-page anchors): one card with hairline
+   rows, kept short so the sidebar fits under the 720px sticky threshold */
 .sidebar-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
+  display: grid;
+  gap: 1px;
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
+  overflow: hidden;
+  background: var(--border-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
   font-family: var(--font-sans);
 }
 
 .sidebar-nav .section-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 0;
-  line-height: 1.35;
-  background: none;
-  border: none;
-  box-shadow: none;
+  display: block;
+  padding: 3px 12px;
+  background: var(--primary-bg);
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
   text-decoration: none !important;
   letter-spacing: 0.01em;
   cursor: pointer;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .sidebar-nav .section-link:hover,
-.sidebar-nav .section-link.active {
+.sidebar-nav .section-link:focus-visible {
+  background: var(--secondary-bg);
   color: var(--accent-color);
+}
+
+.sidebar-nav .section-link:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: -2px;
+}
+
+/* Current section: same left bar as the research headings */
+.sidebar-nav .section-link.active {
+  background: var(--secondary-bg);
+  color: var(--accent-color);
+  box-shadow: inset 3px 0 0 var(--accent-color);
 }
 
 
@@ -663,6 +677,7 @@ html {
   }
 
   .sidebar-nav {
+    grid-template-columns: repeat(3, 1fr);
     max-width: none;
   }
 
