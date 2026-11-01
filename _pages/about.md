@@ -132,14 +132,6 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 </div>
 
-### Work in Progress
-
-- "Really Uncertain Firm Dynamics" (with Yoshiya Yokomoto)
-
-- "Monetary Policy Transmission through Trade and Infrastructure Networks" (with Katerina Nikalexi)
-
-- "Behind the EU Miracle: Misallocation, Adoption and Convergence" (with <a href="https://sites.google.com/site/grassibasile/" target="_blank" rel="noopener noreferrer">Basile Grassi</a>)
-
 ## Teaching {#teaching}
 
 *Bocconi University, Milan (Italy)*
