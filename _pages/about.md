@@ -88,8 +88,7 @@ In Spring 2026, I visited the Stanford Economics Department as a Visiting Studen
 
 <div class="abstract-presentation-info">
   <strong>🏆 <a href="https://comp-econ.com/cef-2026-student-paper/" target="_blank" rel="noopener noreferrer">Best Young Scholar Paper Award (First Prize) — CEF 2026</a></strong><br>
-  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute – The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong><br>
-  <strong>To be presented at the 2027 ASSA Annual Meeting</strong>
+  <strong>Presented at the <a href="https://www.nber.org/conferences/si-2026-micro-and-macro-perspectives-aggregate-labor-market" target="_blank" rel="noopener noreferrer">NBER Summer Institute – The Micro and Macro Perspectives of the Aggregate Labor Market</a></strong>
 </div>
 
 ### Working Papers
