@@ -2,7 +2,7 @@
 permalink: /
 layout: default
 author_profile: false
-excerpt: "PhD candidate in Economics at Bocconi University, on the 2026/2027 academic job market. I combine rich micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes."
+excerpt: "PhD candidate in Economics at Bocconi University, on the 2026/2027 academic job market. I combine administrative micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes."
 header:
   image: "profile_pic.jpg"
 redirect_from:
@@ -48,7 +48,7 @@ I am a sixth-year Ph.D. candidate in Economics at **Bocconi University** in Mila
 
 **Research interests**: Macroeconomics, Labor Economics, and Structural Econometrics.
 
-My research combines rich micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes. I focus on how workers learn about their skills and sort across occupations, and on how firms' internal labor markets shape career progression and wage growth.
+My research combines administrative micro data with quantitative structural models to study how the behavior of individual workers and firms shapes aggregate outcomes. I focus on how workers learn about their skills and sort across occupations, and on how firms' internal labor markets shape career progression and wage growth.
 
 In Spring 2026, I visited the Stanford Economics Department as a Visiting Student Researcher, hosted by <a href="https://lbocola.people.stanford.edu/" target="_blank" rel="noopener noreferrer">Luigi Bocola</a>. During Spring 2025, I was a Visiting Student Research Collaborator at Princeton University, hosted by Gianluca Violante.
 
